@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+      xmlns:f="http://xmlns.jcp.org/jsf/core">
+
+    <head></head>
+    <body style="background: url(../white_car.jpg) no-repeat fixed center; background-size: cover;">
+        <h3 style="color:blue">Updating a car</h3>
+        <h:form>
+            <p><h:outputText style="color: blue" value="Choose a car:" /></p>
+            <p><h:selectOneListbox id="carItem" converter="#{carController}" value="#{carController.car}" >
+                <f:selectItems value="#{carController.cars}" var="carItem" itemLabel="#{carItem.model}" itemValue="#{carItem}"/>
+            </h:selectOneListbox></p>
+            <p><h:outputText style="color: blue" value="Enter model: " /></p>
+            <p><h:inputText value="#{carController.car.model}" /></p>
+            <p><h:outputText style="color: blue" value="Enter country: " /></p>
+            <p><h:inputText value="#{carController.car.country}" /></p>
+
+            <p><h:outputText style="color: blue" value="Enter serial number of registration: " /></p>
+            <p><h:inputText value="#{carController.registration.serial_number}" /></p>
+            <p><h:outputText style="color: blue" value="Choose owner: " /></p>
+            <p><h:selectOneListbox converter="#{ownerController}" value="#{carController.owner}" >
+                <f:selectItems value="#{ownerController.ownerList}" var="item" itemLabel="#{item.firstName} #{item.lastName}"
+                               itemValue="#{item}"/>
+            </h:selectOneListbox></p>
+            <p><h:outputText style="color: blue" value="Choose services: " /></p>
+            <p><h:selectManyListbox converter="#{serviceController}" value="#{carController.services}" >
+                <f:selectItems value="#{serviceController.serviceList}" var="serviceItem"
+                               itemLabel="#{serviceItem.name}" itemValue="#{serviceItem}" />
+            </h:selectManyListbox></p>
+            <p><h:commandButton value="Update" action="#{carController.update}"/></p>
+        </h:form>
+
+        <p><a style="color: blue" href = "../index.xhtml">Home page</a></p>
+
+    </body>
+</html>

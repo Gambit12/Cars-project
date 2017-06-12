@@ -1,0 +1,1251 @@
+2016-11-24 19:38:10 INFO  Version:37 - HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+2016-11-24 19:38:10 INFO  Version:41 - HHH000412: Hibernate Core {4.2.1.Final}
+2016-11-24 19:38:10 INFO  Environment:239 - HHH000206: hibernate.properties not found
+2016-11-24 19:38:10 INFO  Environment:342 - HHH000021: Bytecode provider name : javassist
+2016-11-24 19:38:13 INFO  DriverManagerConnectionProviderImpl:98 - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2016-11-24 19:38:13 INFO  DriverManagerConnectionProviderImpl:134 - HHH000115: Hibernate connection pool size: 20
+2016-11-24 19:38:13 INFO  DriverManagerConnectionProviderImpl:137 - HHH000006: Autocommit mode: true
+2016-11-24 19:38:13 INFO  DriverManagerConnectionProviderImpl:151 - HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/carsdb44]
+2016-11-24 19:38:13 INFO  DriverManagerConnectionProviderImpl:156 - HHH000046: Connection properties: {user=root, password=****, autocommit=true, release_mode=auto}
+2016-11-24 19:38:18 INFO  Dialect:128 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2016-11-24 19:38:18 INFO  TransactionFactoryInitiator:73 - HHH000268: Transaction strategy: org.hibernate.engine.transaction.internal.jdbc.JdbcTransactionFactory
+2016-11-24 19:38:18 INFO  ASTQueryTranslatorFactory:48 - HHH000397: Using ASTQueryTranslatorFactory
+2016-11-24 19:38:19 INFO  SchemaExport:343 - HHH000227: Running hbm2ddl schema export
+2016-11-24 19:38:20 ERROR SchemaExport:425 - HHH000389: Unsuccessful: alter table CAR_SERVICE drop foreign key FK_ba11e0030d41428ba67ed95754d
+2016-11-24 19:38:20 ERROR SchemaExport:426 - Table 'carsdb44.car_service' doesn't exist
+2016-11-24 19:38:20 ERROR SchemaExport:425 - HHH000389: Unsuccessful: alter table CAR_SERVICE drop foreign key FK_3d9c4bc4173e423699b77294a60
+2016-11-24 19:38:20 ERROR SchemaExport:426 - Table 'carsdb44.car_service' doesn't exist
+2016-11-24 19:38:20 ERROR SchemaExport:425 - HHH000389: Unsuccessful: alter table cars drop foreign key FK_1d3baac01f294444bf89745a154
+2016-11-24 19:38:20 ERROR SchemaExport:426 - Table 'carsdb44.cars' doesn't exist
+2016-11-24 19:38:20 ERROR SchemaExport:425 - HHH000389: Unsuccessful: alter table cars drop foreign key FK_89a2375dc5d240f691b9bfa0456
+2016-11-24 19:38:20 ERROR SchemaExport:426 - Table 'carsdb44.cars' doesn't exist
+2016-11-24 19:38:34 INFO  SchemaExport:405 - HHH000230: Schema export complete
+2016-11-26 16:20:12 INFO  Version:37 - HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+2016-11-26 16:20:12 INFO  Version:41 - HHH000412: Hibernate Core {4.2.1.Final}
+2016-11-26 16:20:12 INFO  Environment:239 - HHH000206: hibernate.properties not found
+2016-11-26 16:20:12 INFO  Environment:342 - HHH000021: Bytecode provider name : javassist
+2016-11-26 16:20:13 INFO  DriverManagerConnectionProviderImpl:98 - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2016-11-26 16:20:13 INFO  DriverManagerConnectionProviderImpl:134 - HHH000115: Hibernate connection pool size: 20
+2016-11-26 16:20:13 INFO  DriverManagerConnectionProviderImpl:137 - HHH000006: Autocommit mode: true
+2016-11-26 16:20:13 INFO  DriverManagerConnectionProviderImpl:151 - HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/carsdb44]
+2016-11-26 16:20:13 INFO  DriverManagerConnectionProviderImpl:156 - HHH000046: Connection properties: {user=root, password=****, autocommit=true, release_mode=auto}
+2016-11-26 16:20:14 INFO  Dialect:128 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2016-11-26 16:20:14 INFO  TransactionFactoryInitiator:73 - HHH000268: Transaction strategy: org.hibernate.engine.transaction.internal.jdbc.JdbcTransactionFactory
+2016-11-26 16:20:14 INFO  ASTQueryTranslatorFactory:48 - HHH000397: Using ASTQueryTranslatorFactory
+2016-11-26 16:20:15 INFO  SchemaExport:343 - HHH000227: Running hbm2ddl schema export
+2016-11-26 16:20:16 ERROR SchemaExport:425 - HHH000389: Unsuccessful: alter table CAR_SERVICE drop foreign key FK_8ca3678b26d043c3b500e450676
+2016-11-26 16:20:16 ERROR SchemaExport:426 - Can't DROP 'FK_8ca3678b26d043c3b500e450676'; check that column/key exists
+2016-11-26 16:20:16 ERROR SchemaExport:425 - HHH000389: Unsuccessful: alter table CAR_SERVICE drop foreign key FK_e285adc6b86a492c8a80c97754f
+2016-11-26 16:20:16 ERROR SchemaExport:426 - Can't DROP 'FK_e285adc6b86a492c8a80c97754f'; check that column/key exists
+2016-11-26 16:20:17 ERROR SchemaExport:425 - HHH000389: Unsuccessful: alter table cars drop foreign key FK_2fe594f9e0c843cc85380baade4
+2016-11-26 16:20:17 ERROR SchemaExport:426 - Can't DROP 'FK_2fe594f9e0c843cc85380baade4'; check that column/key exists
+2016-11-26 16:20:17 ERROR SchemaExport:425 - HHH000389: Unsuccessful: alter table cars drop foreign key FK_a49d78022ad04edbb487dab3dd2
+2016-11-26 16:20:17 ERROR SchemaExport:426 - Can't DROP 'FK_a49d78022ad04edbb487dab3dd2'; check that column/key exists
+2016-11-26 16:20:24 INFO  SchemaExport:405 - HHH000230: Schema export complete
+2016-11-26 16:23:11 INFO  Version:37 - HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+2016-11-26 16:23:11 INFO  Version:41 - HHH000412: Hibernate Core {4.2.1.Final}
+2016-11-26 16:23:11 INFO  Environment:239 - HHH000206: hibernate.properties not found
+2016-11-26 16:23:11 INFO  Environment:342 - HHH000021: Bytecode provider name : javassist
+2016-11-26 16:23:15 INFO  DriverManagerConnectionProviderImpl:98 - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2016-11-26 16:23:15 INFO  DriverManagerConnectionProviderImpl:134 - HHH000115: Hibernate connection pool size: 20
+2016-11-26 16:23:15 INFO  DriverManagerConnectionProviderImpl:137 - HHH000006: Autocommit mode: true
+2016-11-26 16:23:15 INFO  DriverManagerConnectionProviderImpl:151 - HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/carsdb44]
+2016-11-26 16:23:15 INFO  DriverManagerConnectionProviderImpl:156 - HHH000046: Connection properties: {user=root, password=****, autocommit=true, release_mode=auto}
+2016-11-26 16:23:15 INFO  Dialect:128 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2016-11-26 16:23:15 INFO  TransactionFactoryInitiator:73 - HHH000268: Transaction strategy: org.hibernate.engine.transaction.internal.jdbc.JdbcTransactionFactory
+2016-11-26 16:23:15 INFO  ASTQueryTranslatorFactory:48 - HHH000397: Using ASTQueryTranslatorFactory
+2016-11-26 16:23:16 INFO  SchemaExport:343 - HHH000227: Running hbm2ddl schema export
+2016-11-26 16:23:17 ERROR SchemaExport:425 - HHH000389: Unsuccessful: alter table CAR_SERVICE drop foreign key FK_efae5ca7035141bba31d4071e86
+2016-11-26 16:23:17 ERROR SchemaExport:426 - Can't DROP 'FK_efae5ca7035141bba31d4071e86'; check that column/key exists
+2016-11-26 16:23:17 ERROR SchemaExport:425 - HHH000389: Unsuccessful: alter table CAR_SERVICE drop foreign key FK_475ca59aa9e747d18d54196e145
+2016-11-26 16:23:17 ERROR SchemaExport:426 - Can't DROP 'FK_475ca59aa9e747d18d54196e145'; check that column/key exists
+2016-11-26 16:23:17 ERROR SchemaExport:425 - HHH000389: Unsuccessful: alter table cars drop foreign key FK_fd5e03bd72e343ff85c61087c64
+2016-11-26 16:23:17 ERROR SchemaExport:426 - Can't DROP 'FK_fd5e03bd72e343ff85c61087c64'; check that column/key exists
+2016-11-26 16:23:17 ERROR SchemaExport:425 - HHH000389: Unsuccessful: alter table cars drop foreign key FK_64b77ae2d0b448c09ee2aa7088d
+2016-11-26 16:23:17 ERROR SchemaExport:426 - Can't DROP 'FK_64b77ae2d0b448c09ee2aa7088d'; check that column/key exists
+2016-11-26 16:23:25 INFO  SchemaExport:405 - HHH000230: Schema export complete
+2016-11-26 17:00:14 INFO  Version:37 - HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+2016-11-26 17:00:16 INFO  Version:41 - HHH000412: Hibernate Core {4.2.1.Final}
+2016-11-26 17:00:16 INFO  Environment:239 - HHH000206: hibernate.properties not found
+2016-11-26 17:00:16 INFO  Environment:342 - HHH000021: Bytecode provider name : javassist
+2016-11-26 17:00:31 INFO  DriverManagerConnectionProviderImpl:98 - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2016-11-26 17:00:31 INFO  DriverManagerConnectionProviderImpl:134 - HHH000115: Hibernate connection pool size: 20
+2016-11-26 17:00:31 INFO  DriverManagerConnectionProviderImpl:137 - HHH000006: Autocommit mode: true
+2016-11-26 17:00:31 INFO  DriverManagerConnectionProviderImpl:151 - HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/carsdb44]
+2016-11-26 17:00:31 INFO  DriverManagerConnectionProviderImpl:156 - HHH000046: Connection properties: {user=root, password=****, autocommit=true, release_mode=auto}
+2016-11-26 17:00:38 INFO  Dialect:128 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2016-11-26 17:00:39 INFO  TransactionFactoryInitiator:73 - HHH000268: Transaction strategy: org.hibernate.engine.transaction.internal.jdbc.JdbcTransactionFactory
+2016-11-26 17:00:39 INFO  ASTQueryTranslatorFactory:48 - HHH000397: Using ASTQueryTranslatorFactory
+2016-11-26 17:00:44 INFO  SchemaExport:343 - HHH000227: Running hbm2ddl schema export
+2016-11-26 17:00:46 ERROR SchemaExport:425 - HHH000389: Unsuccessful: alter table CAR_SERVICE drop foreign key FK_3b0b49363142448b936fdf53df3
+2016-11-26 17:00:46 ERROR SchemaExport:426 - Can't DROP 'FK_3b0b49363142448b936fdf53df3'; check that column/key exists
+2016-11-26 17:00:47 ERROR SchemaExport:425 - HHH000389: Unsuccessful: alter table CAR_SERVICE drop foreign key FK_596592b7d59f40ce900b528f2c5
+2016-11-26 17:00:47 ERROR SchemaExport:426 - Can't DROP 'FK_596592b7d59f40ce900b528f2c5'; check that column/key exists
+2016-11-26 17:00:47 ERROR SchemaExport:425 - HHH000389: Unsuccessful: alter table cars drop foreign key FK_ab98f52f22184e41bd333aa9da0
+2016-11-26 17:00:47 ERROR SchemaExport:426 - Can't DROP 'FK_ab98f52f22184e41bd333aa9da0'; check that column/key exists
+2016-11-26 17:00:47 ERROR SchemaExport:425 - HHH000389: Unsuccessful: alter table cars drop foreign key FK_a10009d7d6864bcdbb4c465f3ab
+2016-11-26 17:00:47 ERROR SchemaExport:426 - Can't DROP 'FK_a10009d7d6864bcdbb4c465f3ab'; check that column/key exists
+2016-11-26 17:01:01 INFO  SchemaExport:405 - HHH000230: Schema export complete
+2016-11-26 17:04:24 INFO  Version:37 - HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+2016-11-26 17:04:25 INFO  Version:41 - HHH000412: Hibernate Core {4.2.1.Final}
+2016-11-26 17:04:25 INFO  Environment:239 - HHH000206: hibernate.properties not found
+2016-11-26 17:04:25 INFO  Environment:342 - HHH000021: Bytecode provider name : javassist
+2016-11-26 17:04:29 INFO  DriverManagerConnectionProviderImpl:98 - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2016-11-26 17:04:30 INFO  DriverManagerConnectionProviderImpl:134 - HHH000115: Hibernate connection pool size: 20
+2016-11-26 17:04:30 INFO  DriverManagerConnectionProviderImpl:137 - HHH000006: Autocommit mode: true
+2016-11-26 17:04:30 INFO  DriverManagerConnectionProviderImpl:151 - HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/carsdb44]
+2016-11-26 17:04:30 INFO  DriverManagerConnectionProviderImpl:156 - HHH000046: Connection properties: {user=root, password=****, autocommit=true, release_mode=auto}
+2016-11-26 17:04:31 INFO  Dialect:128 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2016-11-26 17:04:31 INFO  TransactionFactoryInitiator:73 - HHH000268: Transaction strategy: org.hibernate.engine.transaction.internal.jdbc.JdbcTransactionFactory
+2016-11-26 17:04:31 INFO  ASTQueryTranslatorFactory:48 - HHH000397: Using ASTQueryTranslatorFactory
+2016-11-26 17:04:32 INFO  SchemaExport:343 - HHH000227: Running hbm2ddl schema export
+2016-11-26 17:04:32 ERROR SchemaExport:425 - HHH000389: Unsuccessful: alter table CAR_SERVICE drop foreign key FK_ddca9103dd724d85bd0ac16739e
+2016-11-26 17:04:32 ERROR SchemaExport:426 - Can't DROP 'FK_ddca9103dd724d85bd0ac16739e'; check that column/key exists
+2016-11-26 17:04:32 ERROR SchemaExport:425 - HHH000389: Unsuccessful: alter table CAR_SERVICE drop foreign key FK_521bf41c1de34506a8694d01842
+2016-11-26 17:04:32 ERROR SchemaExport:426 - Can't DROP 'FK_521bf41c1de34506a8694d01842'; check that column/key exists
+2016-11-26 17:04:32 ERROR SchemaExport:425 - HHH000389: Unsuccessful: alter table cars drop foreign key FK_664d9086419748758f4371243e7
+2016-11-26 17:04:32 ERROR SchemaExport:426 - Can't DROP 'FK_664d9086419748758f4371243e7'; check that column/key exists
+2016-11-26 17:04:32 ERROR SchemaExport:425 - HHH000389: Unsuccessful: alter table cars drop foreign key FK_d14087b463d44c30aa3e231b82f
+2016-11-26 17:04:32 ERROR SchemaExport:426 - Can't DROP 'FK_d14087b463d44c30aa3e231b82f'; check that column/key exists
+2016-11-26 17:04:39 INFO  SchemaExport:405 - HHH000230: Schema export complete
+2016-11-26 17:06:36 INFO  CarController:103 - Car was deleted!
+2016-11-26 17:11:38 INFO  Version:37 - HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+2016-11-26 17:11:38 INFO  Version:41 - HHH000412: Hibernate Core {4.2.1.Final}
+2016-11-26 17:11:38 INFO  Environment:239 - HHH000206: hibernate.properties not found
+2016-11-26 17:11:38 INFO  Environment:342 - HHH000021: Bytecode provider name : javassist
+2016-11-26 17:11:39 INFO  DriverManagerConnectionProviderImpl:98 - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2016-11-26 17:11:39 INFO  DriverManagerConnectionProviderImpl:134 - HHH000115: Hibernate connection pool size: 20
+2016-11-26 17:11:39 INFO  DriverManagerConnectionProviderImpl:137 - HHH000006: Autocommit mode: true
+2016-11-26 17:11:39 INFO  DriverManagerConnectionProviderImpl:151 - HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/carsdb44]
+2016-11-26 17:11:39 INFO  DriverManagerConnectionProviderImpl:156 - HHH000046: Connection properties: {user=root, password=****, autocommit=true, release_mode=auto}
+2016-11-26 17:11:40 INFO  Dialect:128 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2016-11-26 17:11:40 INFO  TransactionFactoryInitiator:73 - HHH000268: Transaction strategy: org.hibernate.engine.transaction.internal.jdbc.JdbcTransactionFactory
+2016-11-26 17:11:40 INFO  ASTQueryTranslatorFactory:48 - HHH000397: Using ASTQueryTranslatorFactory
+2016-11-26 17:11:41 INFO  SchemaExport:343 - HHH000227: Running hbm2ddl schema export
+2016-11-26 17:11:41 ERROR SchemaExport:425 - HHH000389: Unsuccessful: alter table CAR_SERVICE drop foreign key FK_448fb5cbf31f4929a56e29937aa
+2016-11-26 17:11:41 ERROR SchemaExport:426 - Can't DROP 'FK_448fb5cbf31f4929a56e29937aa'; check that column/key exists
+2016-11-26 17:11:41 ERROR SchemaExport:425 - HHH000389: Unsuccessful: alter table CAR_SERVICE drop foreign key FK_d4a0bc1bd41d4a1389b7fc7a6b2
+2016-11-26 17:11:41 ERROR SchemaExport:426 - Can't DROP 'FK_d4a0bc1bd41d4a1389b7fc7a6b2'; check that column/key exists
+2016-11-26 17:11:42 ERROR SchemaExport:425 - HHH000389: Unsuccessful: alter table cars drop foreign key FK_ffc917943f4a43ad81b336aab65
+2016-11-26 17:11:42 ERROR SchemaExport:426 - Can't DROP 'FK_ffc917943f4a43ad81b336aab65'; check that column/key exists
+2016-11-26 17:11:42 ERROR SchemaExport:425 - HHH000389: Unsuccessful: alter table cars drop foreign key FK_596b80793c0843e18dec7f7efad
+2016-11-26 17:11:42 ERROR SchemaExport:426 - Can't DROP 'FK_596b80793c0843e18dec7f7efad'; check that column/key exists
+2016-11-26 17:11:50 INFO  SchemaExport:405 - HHH000230: Schema export complete
+2016-11-26 17:13:00 INFO  Version:37 - HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+2016-11-26 17:13:00 INFO  Version:41 - HHH000412: Hibernate Core {4.2.1.Final}
+2016-11-26 17:13:00 INFO  Environment:239 - HHH000206: hibernate.properties not found
+2016-11-26 17:13:00 INFO  Environment:342 - HHH000021: Bytecode provider name : javassist
+2016-11-26 17:13:01 INFO  DriverManagerConnectionProviderImpl:98 - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2016-11-26 17:13:01 INFO  DriverManagerConnectionProviderImpl:134 - HHH000115: Hibernate connection pool size: 20
+2016-11-26 17:13:01 INFO  DriverManagerConnectionProviderImpl:137 - HHH000006: Autocommit mode: true
+2016-11-26 17:13:01 INFO  DriverManagerConnectionProviderImpl:151 - HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/carsdb44]
+2016-11-26 17:13:01 INFO  DriverManagerConnectionProviderImpl:156 - HHH000046: Connection properties: {user=root, password=****, autocommit=true, release_mode=auto}
+2016-11-26 17:13:02 INFO  Dialect:128 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2016-11-26 17:13:02 INFO  TransactionFactoryInitiator:73 - HHH000268: Transaction strategy: org.hibernate.engine.transaction.internal.jdbc.JdbcTransactionFactory
+2016-11-26 17:13:02 INFO  ASTQueryTranslatorFactory:48 - HHH000397: Using ASTQueryTranslatorFactory
+2016-11-26 17:13:03 INFO  SchemaExport:343 - HHH000227: Running hbm2ddl schema export
+2016-11-26 17:13:03 ERROR SchemaExport:425 - HHH000389: Unsuccessful: alter table CAR_SERVICE drop foreign key FK_6d714a64b71c49b5ae839af153b
+2016-11-26 17:13:03 ERROR SchemaExport:426 - Can't DROP 'FK_6d714a64b71c49b5ae839af153b'; check that column/key exists
+2016-11-26 17:13:03 ERROR SchemaExport:425 - HHH000389: Unsuccessful: alter table CAR_SERVICE drop foreign key FK_7079a3f4a93246dab09c0cef7e4
+2016-11-26 17:13:03 ERROR SchemaExport:426 - Can't DROP 'FK_7079a3f4a93246dab09c0cef7e4'; check that column/key exists
+2016-11-26 17:13:03 ERROR SchemaExport:425 - HHH000389: Unsuccessful: alter table cars drop foreign key FK_9cdc0385c5ab4f42ac14a2c8075
+2016-11-26 17:13:03 ERROR SchemaExport:426 - Can't DROP 'FK_9cdc0385c5ab4f42ac14a2c8075'; check that column/key exists
+2016-11-26 17:13:03 ERROR SchemaExport:425 - HHH000389: Unsuccessful: alter table cars drop foreign key FK_54d69fa00aa8477597eeadaee37
+2016-11-26 17:13:03 ERROR SchemaExport:426 - Can't DROP 'FK_54d69fa00aa8477597eeadaee37'; check that column/key exists
+2016-11-26 17:13:11 INFO  SchemaExport:405 - HHH000230: Schema export complete
+2016-11-26 17:14:07 INFO  ServiceController:49 - New service was added
+2016-11-26 17:14:46 INFO  CarController:87 - New registration was created!
+2016-11-26 17:14:46 INFO  CarController:89 - New car was created!
+2016-11-26 17:18:21 INFO  CarController:98 - Car was updated!
+2016-11-26 17:19:40 INFO  CarController:103 - Car was deleted!
+2016-11-26 17:28:11 INFO  Version:37 - HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+2016-11-26 17:28:11 INFO  Version:41 - HHH000412: Hibernate Core {4.2.1.Final}
+2016-11-26 17:28:11 INFO  Environment:239 - HHH000206: hibernate.properties not found
+2016-11-26 17:28:11 INFO  Environment:342 - HHH000021: Bytecode provider name : javassist
+2016-11-26 17:28:15 INFO  DriverManagerConnectionProviderImpl:98 - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2016-11-26 17:28:15 INFO  DriverManagerConnectionProviderImpl:134 - HHH000115: Hibernate connection pool size: 20
+2016-11-26 17:28:15 INFO  DriverManagerConnectionProviderImpl:137 - HHH000006: Autocommit mode: true
+2016-11-26 17:28:15 INFO  DriverManagerConnectionProviderImpl:151 - HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/carsdb44]
+2016-11-26 17:28:15 INFO  DriverManagerConnectionProviderImpl:156 - HHH000046: Connection properties: {user=root, password=****, autocommit=true, release_mode=auto}
+2016-11-26 17:28:16 INFO  Dialect:128 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2016-11-26 17:28:17 INFO  TransactionFactoryInitiator:73 - HHH000268: Transaction strategy: org.hibernate.engine.transaction.internal.jdbc.JdbcTransactionFactory
+2016-11-26 17:28:17 INFO  ASTQueryTranslatorFactory:48 - HHH000397: Using ASTQueryTranslatorFactory
+2016-11-26 17:28:19 INFO  SchemaExport:343 - HHH000227: Running hbm2ddl schema export
+2016-11-26 17:28:20 ERROR SchemaExport:425 - HHH000389: Unsuccessful: alter table CAR_SERVICE drop foreign key FK_e7ec36690d974ef481e0beb65ca
+2016-11-26 17:28:20 ERROR SchemaExport:426 - Can't DROP 'FK_e7ec36690d974ef481e0beb65ca'; check that column/key exists
+2016-11-26 17:28:20 ERROR SchemaExport:425 - HHH000389: Unsuccessful: alter table CAR_SERVICE drop foreign key FK_798d5b33de5d4b128ed3e3bd363
+2016-11-26 17:28:20 ERROR SchemaExport:426 - Can't DROP 'FK_798d5b33de5d4b128ed3e3bd363'; check that column/key exists
+2016-11-26 17:28:20 ERROR SchemaExport:425 - HHH000389: Unsuccessful: alter table cars drop foreign key FK_36e70ef6e9c146ff958ee80f0ff
+2016-11-26 17:28:20 ERROR SchemaExport:426 - Can't DROP 'FK_36e70ef6e9c146ff958ee80f0ff'; check that column/key exists
+2016-11-26 17:28:20 ERROR SchemaExport:425 - HHH000389: Unsuccessful: alter table cars drop foreign key FK_fb9012c197304f338f184b9550e
+2016-11-26 17:28:20 ERROR SchemaExport:426 - Can't DROP 'FK_fb9012c197304f338f184b9550e'; check that column/key exists
+2016-11-26 17:28:27 INFO  SchemaExport:405 - HHH000230: Schema export complete
+2016-11-26 17:46:49 INFO  Version:37 - HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+2016-11-26 17:46:49 INFO  Version:41 - HHH000412: Hibernate Core {4.2.1.Final}
+2016-11-26 17:46:49 INFO  Environment:239 - HHH000206: hibernate.properties not found
+2016-11-26 17:46:49 INFO  Environment:342 - HHH000021: Bytecode provider name : javassist
+2016-11-26 17:46:51 INFO  DriverManagerConnectionProviderImpl:98 - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2016-11-26 17:46:51 INFO  DriverManagerConnectionProviderImpl:134 - HHH000115: Hibernate connection pool size: 20
+2016-11-26 17:46:51 INFO  DriverManagerConnectionProviderImpl:137 - HHH000006: Autocommit mode: true
+2016-11-26 17:46:51 INFO  DriverManagerConnectionProviderImpl:151 - HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/carsdb44]
+2016-11-26 17:46:51 INFO  DriverManagerConnectionProviderImpl:156 - HHH000046: Connection properties: {user=root, password=****, autocommit=true, release_mode=auto}
+2016-11-26 17:46:52 INFO  Dialect:128 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2016-11-26 17:46:52 INFO  TransactionFactoryInitiator:73 - HHH000268: Transaction strategy: org.hibernate.engine.transaction.internal.jdbc.JdbcTransactionFactory
+2016-11-26 17:46:52 INFO  ASTQueryTranslatorFactory:48 - HHH000397: Using ASTQueryTranslatorFactory
+2016-11-26 17:46:53 INFO  SchemaExport:343 - HHH000227: Running hbm2ddl schema export
+2016-11-26 17:46:53 ERROR SchemaExport:425 - HHH000389: Unsuccessful: alter table CAR_SERVICE drop foreign key FK_aa0ffbb714944e3d8369cb3655e
+2016-11-26 17:46:53 ERROR SchemaExport:426 - Can't DROP 'FK_aa0ffbb714944e3d8369cb3655e'; check that column/key exists
+2016-11-26 17:46:53 ERROR SchemaExport:425 - HHH000389: Unsuccessful: alter table CAR_SERVICE drop foreign key FK_5ea49cff7c604229b50528b148c
+2016-11-26 17:46:53 ERROR SchemaExport:426 - Can't DROP 'FK_5ea49cff7c604229b50528b148c'; check that column/key exists
+2016-11-26 17:46:53 ERROR SchemaExport:425 - HHH000389: Unsuccessful: alter table cars drop foreign key FK_d7a0aab7558a4cb8ae36013911d
+2016-11-26 17:46:53 ERROR SchemaExport:426 - Can't DROP 'FK_d7a0aab7558a4cb8ae36013911d'; check that column/key exists
+2016-11-26 17:46:53 ERROR SchemaExport:425 - HHH000389: Unsuccessful: alter table cars drop foreign key FK_c8ce7845dd964fbdb3ba0560146
+2016-11-26 17:46:53 ERROR SchemaExport:426 - Can't DROP 'FK_c8ce7845dd964fbdb3ba0560146'; check that column/key exists
+2016-11-26 17:47:01 INFO  SchemaExport:405 - HHH000230: Schema export complete
+2016-11-26 17:55:55 INFO  Version:37 - HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+2016-11-26 17:55:55 INFO  Version:41 - HHH000412: Hibernate Core {4.2.1.Final}
+2016-11-26 17:55:55 INFO  Environment:239 - HHH000206: hibernate.properties not found
+2016-11-26 17:55:55 INFO  Environment:342 - HHH000021: Bytecode provider name : javassist
+2016-11-26 17:55:56 INFO  DriverManagerConnectionProviderImpl:98 - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2016-11-26 17:55:56 INFO  DriverManagerConnectionProviderImpl:134 - HHH000115: Hibernate connection pool size: 20
+2016-11-26 17:55:56 INFO  DriverManagerConnectionProviderImpl:137 - HHH000006: Autocommit mode: true
+2016-11-26 17:55:56 INFO  DriverManagerConnectionProviderImpl:151 - HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/carsdb44]
+2016-11-26 17:55:56 INFO  DriverManagerConnectionProviderImpl:156 - HHH000046: Connection properties: {user=root, password=****, autocommit=true, release_mode=auto}
+2016-11-26 17:55:57 INFO  Dialect:128 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2016-11-26 17:55:57 INFO  TransactionFactoryInitiator:73 - HHH000268: Transaction strategy: org.hibernate.engine.transaction.internal.jdbc.JdbcTransactionFactory
+2016-11-26 17:55:57 INFO  ASTQueryTranslatorFactory:48 - HHH000397: Using ASTQueryTranslatorFactory
+2016-11-26 17:55:57 INFO  SchemaExport:343 - HHH000227: Running hbm2ddl schema export
+2016-11-26 17:55:57 ERROR SchemaExport:425 - HHH000389: Unsuccessful: alter table CAR_SERVICE drop foreign key FK_a73857690e32438b99293af346c
+2016-11-26 17:55:57 ERROR SchemaExport:426 - Can't DROP 'FK_a73857690e32438b99293af346c'; check that column/key exists
+2016-11-26 17:55:57 ERROR SchemaExport:425 - HHH000389: Unsuccessful: alter table CAR_SERVICE drop foreign key FK_6ca5f42a0d2c463aaa9b976fcbf
+2016-11-26 17:55:57 ERROR SchemaExport:426 - Can't DROP 'FK_6ca5f42a0d2c463aaa9b976fcbf'; check that column/key exists
+2016-11-26 17:55:57 ERROR SchemaExport:425 - HHH000389: Unsuccessful: alter table cars drop foreign key FK_33d7820c8b434c0bbdcf9c78873
+2016-11-26 17:55:57 ERROR SchemaExport:426 - Can't DROP 'FK_33d7820c8b434c0bbdcf9c78873'; check that column/key exists
+2016-11-26 17:55:58 ERROR SchemaExport:425 - HHH000389: Unsuccessful: alter table cars drop foreign key FK_d617c37fa93f4c4187ed1ba3af6
+2016-11-26 17:55:58 ERROR SchemaExport:426 - Can't DROP 'FK_d617c37fa93f4c4187ed1ba3af6'; check that column/key exists
+2016-11-26 17:56:03 INFO  SchemaExport:405 - HHH000230: Schema export complete
+2016-11-26 17:56:59 INFO  Version:37 - HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+2016-11-26 17:56:59 INFO  Version:41 - HHH000412: Hibernate Core {4.2.1.Final}
+2016-11-26 17:56:59 INFO  Environment:239 - HHH000206: hibernate.properties not found
+2016-11-26 17:56:59 INFO  Environment:342 - HHH000021: Bytecode provider name : javassist
+2016-11-26 17:57:02 INFO  DriverManagerConnectionProviderImpl:98 - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2016-11-26 17:57:02 INFO  DriverManagerConnectionProviderImpl:134 - HHH000115: Hibernate connection pool size: 20
+2016-11-26 17:57:02 INFO  DriverManagerConnectionProviderImpl:137 - HHH000006: Autocommit mode: true
+2016-11-26 17:57:02 INFO  DriverManagerConnectionProviderImpl:151 - HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/carsdb44]
+2016-11-26 17:57:02 INFO  DriverManagerConnectionProviderImpl:156 - HHH000046: Connection properties: {user=root, password=****, autocommit=true, release_mode=auto}
+2016-11-26 17:57:02 INFO  Dialect:128 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2016-11-26 17:57:03 INFO  TransactionFactoryInitiator:73 - HHH000268: Transaction strategy: org.hibernate.engine.transaction.internal.jdbc.JdbcTransactionFactory
+2016-11-26 17:57:03 INFO  ASTQueryTranslatorFactory:48 - HHH000397: Using ASTQueryTranslatorFactory
+2016-11-26 17:57:03 INFO  SchemaExport:343 - HHH000227: Running hbm2ddl schema export
+2016-11-26 17:57:03 ERROR SchemaExport:425 - HHH000389: Unsuccessful: alter table CAR_SERVICE drop foreign key FK_56daee9495974f6cbee9e85ed92
+2016-11-26 17:57:03 ERROR SchemaExport:426 - Can't DROP 'FK_56daee9495974f6cbee9e85ed92'; check that column/key exists
+2016-11-26 17:57:03 ERROR SchemaExport:425 - HHH000389: Unsuccessful: alter table CAR_SERVICE drop foreign key FK_d7dd6e512af1446c9a518e9ac44
+2016-11-26 17:57:03 ERROR SchemaExport:426 - Can't DROP 'FK_d7dd6e512af1446c9a518e9ac44'; check that column/key exists
+2016-11-26 17:57:03 ERROR SchemaExport:425 - HHH000389: Unsuccessful: alter table cars drop foreign key FK_d738925c52fe4fa0a38e21efd51
+2016-11-26 17:57:03 ERROR SchemaExport:426 - Can't DROP 'FK_d738925c52fe4fa0a38e21efd51'; check that column/key exists
+2016-11-26 17:57:03 ERROR SchemaExport:425 - HHH000389: Unsuccessful: alter table cars drop foreign key FK_a0539fe501c04744bb9ee068d3b
+2016-11-26 17:57:03 ERROR SchemaExport:426 - Can't DROP 'FK_a0539fe501c04744bb9ee068d3b'; check that column/key exists
+2016-11-26 17:57:09 INFO  SchemaExport:405 - HHH000230: Schema export complete
+2016-11-26 17:59:54 INFO  Version:37 - HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+2016-11-26 17:59:54 INFO  Version:41 - HHH000412: Hibernate Core {4.2.1.Final}
+2016-11-26 17:59:54 INFO  Environment:239 - HHH000206: hibernate.properties not found
+2016-11-26 17:59:54 INFO  Environment:342 - HHH000021: Bytecode provider name : javassist
+2016-11-26 17:59:55 INFO  DriverManagerConnectionProviderImpl:98 - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2016-11-26 17:59:55 INFO  DriverManagerConnectionProviderImpl:134 - HHH000115: Hibernate connection pool size: 20
+2016-11-26 17:59:55 INFO  DriverManagerConnectionProviderImpl:137 - HHH000006: Autocommit mode: true
+2016-11-26 17:59:55 INFO  DriverManagerConnectionProviderImpl:151 - HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/carsdb44]
+2016-11-26 17:59:55 INFO  DriverManagerConnectionProviderImpl:156 - HHH000046: Connection properties: {user=root, password=****, autocommit=true, release_mode=auto}
+2016-11-26 17:59:55 INFO  Dialect:128 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2016-11-26 17:59:55 INFO  TransactionFactoryInitiator:73 - HHH000268: Transaction strategy: org.hibernate.engine.transaction.internal.jdbc.JdbcTransactionFactory
+2016-11-26 17:59:55 INFO  ASTQueryTranslatorFactory:48 - HHH000397: Using ASTQueryTranslatorFactory
+2016-11-26 17:59:56 INFO  SchemaExport:343 - HHH000227: Running hbm2ddl schema export
+2016-11-26 17:59:56 ERROR SchemaExport:425 - HHH000389: Unsuccessful: alter table CAR_SERVICE drop foreign key FK_440c79172f074458902f020413e
+2016-11-26 17:59:56 ERROR SchemaExport:426 - Can't DROP 'FK_440c79172f074458902f020413e'; check that column/key exists
+2016-11-26 17:59:56 ERROR SchemaExport:425 - HHH000389: Unsuccessful: alter table CAR_SERVICE drop foreign key FK_44c62d23b7ab49cb9d89c78dbb3
+2016-11-26 17:59:56 ERROR SchemaExport:426 - Can't DROP 'FK_44c62d23b7ab49cb9d89c78dbb3'; check that column/key exists
+2016-11-26 17:59:56 ERROR SchemaExport:425 - HHH000389: Unsuccessful: alter table cars drop foreign key FK_118f37675f9b4ec69a160b43524
+2016-11-26 17:59:56 ERROR SchemaExport:426 - Can't DROP 'FK_118f37675f9b4ec69a160b43524'; check that column/key exists
+2016-11-26 17:59:56 ERROR SchemaExport:425 - HHH000389: Unsuccessful: alter table cars drop foreign key FK_f7c34a3389254fba91cf42fc8ed
+2016-11-26 17:59:56 ERROR SchemaExport:426 - Can't DROP 'FK_f7c34a3389254fba91cf42fc8ed'; check that column/key exists
+2016-11-26 18:00:10 INFO  SchemaExport:405 - HHH000230: Schema export complete
+2016-11-26 18:01:58 INFO  Version:37 - HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+2016-11-26 18:01:58 INFO  Version:41 - HHH000412: Hibernate Core {4.2.1.Final}
+2016-11-26 18:01:58 INFO  Environment:239 - HHH000206: hibernate.properties not found
+2016-11-26 18:01:58 INFO  Environment:342 - HHH000021: Bytecode provider name : javassist
+2016-11-26 18:01:59 INFO  DriverManagerConnectionProviderImpl:98 - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2016-11-26 18:01:59 INFO  DriverManagerConnectionProviderImpl:134 - HHH000115: Hibernate connection pool size: 20
+2016-11-26 18:01:59 INFO  DriverManagerConnectionProviderImpl:137 - HHH000006: Autocommit mode: true
+2016-11-26 18:01:59 INFO  DriverManagerConnectionProviderImpl:151 - HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/carsdb44]
+2016-11-26 18:01:59 INFO  DriverManagerConnectionProviderImpl:156 - HHH000046: Connection properties: {user=root, password=****, autocommit=true, release_mode=auto}
+2016-11-26 18:01:59 INFO  Dialect:128 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2016-11-26 18:01:59 INFO  TransactionFactoryInitiator:73 - HHH000268: Transaction strategy: org.hibernate.engine.transaction.internal.jdbc.JdbcTransactionFactory
+2016-11-26 18:01:59 INFO  ASTQueryTranslatorFactory:48 - HHH000397: Using ASTQueryTranslatorFactory
+2016-11-26 18:02:00 INFO  SchemaExport:343 - HHH000227: Running hbm2ddl schema export
+2016-11-26 18:02:00 ERROR SchemaExport:425 - HHH000389: Unsuccessful: alter table CAR_SERVICE drop foreign key FK_8c676539559f4f4da59da27d1d0
+2016-11-26 18:02:00 ERROR SchemaExport:426 - Can't DROP 'FK_8c676539559f4f4da59da27d1d0'; check that column/key exists
+2016-11-26 18:02:00 ERROR SchemaExport:425 - HHH000389: Unsuccessful: alter table CAR_SERVICE drop foreign key FK_3529030bbc1240578c176f13740
+2016-11-26 18:02:00 ERROR SchemaExport:426 - Can't DROP 'FK_3529030bbc1240578c176f13740'; check that column/key exists
+2016-11-26 18:02:00 ERROR SchemaExport:425 - HHH000389: Unsuccessful: alter table cars drop foreign key FK_da44266c0bad494b87a16560bf0
+2016-11-26 18:02:00 ERROR SchemaExport:426 - Can't DROP 'FK_da44266c0bad494b87a16560bf0'; check that column/key exists
+2016-11-26 18:02:00 ERROR SchemaExport:425 - HHH000389: Unsuccessful: alter table cars drop foreign key FK_d5586a6711b747c184d583c7b55
+2016-11-26 18:02:00 ERROR SchemaExport:426 - Can't DROP 'FK_d5586a6711b747c184d583c7b55'; check that column/key exists
+2016-11-26 18:02:08 INFO  SchemaExport:405 - HHH000230: Schema export complete
+2016-11-26 18:04:56 INFO  Version:37 - HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+2016-11-26 18:04:56 INFO  Version:41 - HHH000412: Hibernate Core {4.2.1.Final}
+2016-11-26 18:04:56 INFO  Environment:239 - HHH000206: hibernate.properties not found
+2016-11-26 18:04:56 INFO  Environment:342 - HHH000021: Bytecode provider name : javassist
+2016-11-26 18:04:57 INFO  DriverManagerConnectionProviderImpl:98 - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2016-11-26 18:04:57 INFO  DriverManagerConnectionProviderImpl:134 - HHH000115: Hibernate connection pool size: 20
+2016-11-26 18:04:57 INFO  DriverManagerConnectionProviderImpl:137 - HHH000006: Autocommit mode: true
+2016-11-26 18:04:57 INFO  DriverManagerConnectionProviderImpl:151 - HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/carsdb44]
+2016-11-26 18:04:57 INFO  DriverManagerConnectionProviderImpl:156 - HHH000046: Connection properties: {user=root, password=****, autocommit=true, release_mode=auto}
+2016-11-26 18:04:57 INFO  Dialect:128 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2016-11-26 18:04:57 INFO  TransactionFactoryInitiator:73 - HHH000268: Transaction strategy: org.hibernate.engine.transaction.internal.jdbc.JdbcTransactionFactory
+2016-11-26 18:04:57 INFO  ASTQueryTranslatorFactory:48 - HHH000397: Using ASTQueryTranslatorFactory
+2016-11-26 18:04:58 INFO  SchemaExport:343 - HHH000227: Running hbm2ddl schema export
+2016-11-26 18:04:58 ERROR SchemaExport:425 - HHH000389: Unsuccessful: alter table CAR_SERVICE drop foreign key FK_bace6214fc034b6ca7dbba0b33a
+2016-11-26 18:04:58 ERROR SchemaExport:426 - Can't DROP 'FK_bace6214fc034b6ca7dbba0b33a'; check that column/key exists
+2016-11-26 18:04:58 ERROR SchemaExport:425 - HHH000389: Unsuccessful: alter table CAR_SERVICE drop foreign key FK_ae82658873d84230bcd1b245ddc
+2016-11-26 18:04:58 ERROR SchemaExport:426 - Can't DROP 'FK_ae82658873d84230bcd1b245ddc'; check that column/key exists
+2016-11-26 18:04:58 ERROR SchemaExport:425 - HHH000389: Unsuccessful: alter table cars drop foreign key FK_fcf73c93293b44ce8e2895c540f
+2016-11-26 18:04:58 ERROR SchemaExport:426 - Can't DROP 'FK_fcf73c93293b44ce8e2895c540f'; check that column/key exists
+2016-11-26 18:04:58 ERROR SchemaExport:425 - HHH000389: Unsuccessful: alter table cars drop foreign key FK_35bb21fdda9d4e558b39ed0f7f9
+2016-11-26 18:04:58 ERROR SchemaExport:426 - Can't DROP 'FK_35bb21fdda9d4e558b39ed0f7f9'; check that column/key exists
+2016-11-26 18:05:04 INFO  SchemaExport:405 - HHH000230: Schema export complete
+2016-11-26 18:35:35 INFO  Version:37 - HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+2016-11-26 18:35:35 INFO  Version:41 - HHH000412: Hibernate Core {4.2.1.Final}
+2016-11-26 18:35:35 INFO  Environment:239 - HHH000206: hibernate.properties not found
+2016-11-26 18:35:35 INFO  Environment:342 - HHH000021: Bytecode provider name : javassist
+2016-11-26 18:35:36 INFO  DriverManagerConnectionProviderImpl:98 - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2016-11-26 18:35:36 INFO  DriverManagerConnectionProviderImpl:134 - HHH000115: Hibernate connection pool size: 20
+2016-11-26 18:35:36 INFO  DriverManagerConnectionProviderImpl:137 - HHH000006: Autocommit mode: true
+2016-11-26 18:35:36 INFO  DriverManagerConnectionProviderImpl:151 - HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/carsdb44]
+2016-11-26 18:35:36 INFO  DriverManagerConnectionProviderImpl:156 - HHH000046: Connection properties: {user=root, password=****, autocommit=true, release_mode=auto}
+2016-11-26 18:35:36 INFO  Dialect:128 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2016-11-26 18:35:36 INFO  TransactionFactoryInitiator:73 - HHH000268: Transaction strategy: org.hibernate.engine.transaction.internal.jdbc.JdbcTransactionFactory
+2016-11-26 18:35:36 INFO  ASTQueryTranslatorFactory:48 - HHH000397: Using ASTQueryTranslatorFactory
+2016-11-26 18:35:37 INFO  SchemaExport:343 - HHH000227: Running hbm2ddl schema export
+2016-11-26 18:35:37 ERROR SchemaExport:425 - HHH000389: Unsuccessful: alter table CAR_SERVICE drop foreign key FK_69c1b60507964f2ba42d6d4cfdb
+2016-11-26 18:35:37 ERROR SchemaExport:426 - Can't DROP 'FK_69c1b60507964f2ba42d6d4cfdb'; check that column/key exists
+2016-11-26 18:35:37 ERROR SchemaExport:425 - HHH000389: Unsuccessful: alter table CAR_SERVICE drop foreign key FK_e1b13f6fcc504568ba47dcdcaed
+2016-11-26 18:35:37 ERROR SchemaExport:426 - Can't DROP 'FK_e1b13f6fcc504568ba47dcdcaed'; check that column/key exists
+2016-11-26 18:35:37 ERROR SchemaExport:425 - HHH000389: Unsuccessful: alter table cars drop foreign key FK_ee5e378f7fd44811a8323a801d9
+2016-11-26 18:35:37 ERROR SchemaExport:426 - Can't DROP 'FK_ee5e378f7fd44811a8323a801d9'; check that column/key exists
+2016-11-26 18:35:37 ERROR SchemaExport:425 - HHH000389: Unsuccessful: alter table cars drop foreign key FK_fc36709c7be34b2fa1d06913e01
+2016-11-26 18:35:37 ERROR SchemaExport:426 - Can't DROP 'FK_fc36709c7be34b2fa1d06913e01'; check that column/key exists
+2016-11-26 18:35:44 INFO  SchemaExport:405 - HHH000230: Schema export complete
+2016-11-26 18:38:16 INFO  Version:37 - HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+2016-11-26 18:38:16 INFO  Version:41 - HHH000412: Hibernate Core {4.2.1.Final}
+2016-11-26 18:38:16 INFO  Environment:239 - HHH000206: hibernate.properties not found
+2016-11-26 18:38:16 INFO  Environment:342 - HHH000021: Bytecode provider name : javassist
+2016-11-26 18:38:17 INFO  DriverManagerConnectionProviderImpl:98 - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2016-11-26 18:38:17 INFO  DriverManagerConnectionProviderImpl:134 - HHH000115: Hibernate connection pool size: 20
+2016-11-26 18:38:17 INFO  DriverManagerConnectionProviderImpl:137 - HHH000006: Autocommit mode: true
+2016-11-26 18:38:17 INFO  DriverManagerConnectionProviderImpl:151 - HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/carsdb44]
+2016-11-26 18:38:17 INFO  DriverManagerConnectionProviderImpl:156 - HHH000046: Connection properties: {user=root, password=****, autocommit=true, release_mode=auto}
+2016-11-26 18:38:18 INFO  Dialect:128 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2016-11-26 18:38:18 INFO  TransactionFactoryInitiator:73 - HHH000268: Transaction strategy: org.hibernate.engine.transaction.internal.jdbc.JdbcTransactionFactory
+2016-11-26 18:38:18 INFO  ASTQueryTranslatorFactory:48 - HHH000397: Using ASTQueryTranslatorFactory
+2016-11-26 18:38:19 INFO  SchemaExport:343 - HHH000227: Running hbm2ddl schema export
+2016-11-26 18:38:19 ERROR SchemaExport:425 - HHH000389: Unsuccessful: alter table CAR_SERVICE drop foreign key FK_3290b93aab204a169baaf4216f0
+2016-11-26 18:38:19 ERROR SchemaExport:426 - Can't DROP 'FK_3290b93aab204a169baaf4216f0'; check that column/key exists
+2016-11-26 18:38:19 ERROR SchemaExport:425 - HHH000389: Unsuccessful: alter table CAR_SERVICE drop foreign key FK_f9d86179eaa54185a7ac6183b4b
+2016-11-26 18:38:19 ERROR SchemaExport:426 - Can't DROP 'FK_f9d86179eaa54185a7ac6183b4b'; check that column/key exists
+2016-11-26 18:38:19 ERROR SchemaExport:425 - HHH000389: Unsuccessful: alter table cars drop foreign key FK_c46d28334a054464982d795262d
+2016-11-26 18:38:19 ERROR SchemaExport:426 - Can't DROP 'FK_c46d28334a054464982d795262d'; check that column/key exists
+2016-11-26 18:38:19 ERROR SchemaExport:425 - HHH000389: Unsuccessful: alter table cars drop foreign key FK_62dd46e9140e41cfacc6157bb7e
+2016-11-26 18:38:19 ERROR SchemaExport:426 - Can't DROP 'FK_62dd46e9140e41cfacc6157bb7e'; check that column/key exists
+2016-11-26 18:38:26 INFO  SchemaExport:405 - HHH000230: Schema export complete
+2016-11-26 18:39:10 INFO  Version:37 - HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+2016-11-26 18:39:10 INFO  Version:41 - HHH000412: Hibernate Core {4.2.1.Final}
+2016-11-26 18:39:11 INFO  Environment:239 - HHH000206: hibernate.properties not found
+2016-11-26 18:39:11 INFO  Environment:342 - HHH000021: Bytecode provider name : javassist
+2016-11-26 18:39:13 INFO  DriverManagerConnectionProviderImpl:98 - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2016-11-26 18:39:13 INFO  DriverManagerConnectionProviderImpl:134 - HHH000115: Hibernate connection pool size: 20
+2016-11-26 18:39:13 INFO  DriverManagerConnectionProviderImpl:137 - HHH000006: Autocommit mode: true
+2016-11-26 18:39:13 INFO  DriverManagerConnectionProviderImpl:151 - HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/carsdb44]
+2016-11-26 18:39:13 INFO  DriverManagerConnectionProviderImpl:156 - HHH000046: Connection properties: {user=root, password=****, autocommit=true, release_mode=auto}
+2016-11-26 18:39:13 INFO  Dialect:128 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2016-11-26 18:39:13 INFO  TransactionFactoryInitiator:73 - HHH000268: Transaction strategy: org.hibernate.engine.transaction.internal.jdbc.JdbcTransactionFactory
+2016-11-26 18:39:13 INFO  ASTQueryTranslatorFactory:48 - HHH000397: Using ASTQueryTranslatorFactory
+2016-11-26 18:39:15 INFO  SchemaExport:343 - HHH000227: Running hbm2ddl schema export
+2016-11-26 18:39:15 ERROR SchemaExport:425 - HHH000389: Unsuccessful: alter table CAR_SERVICE drop foreign key FK_24cf46880773493f894fa492db1
+2016-11-26 18:39:15 ERROR SchemaExport:426 - Can't DROP 'FK_24cf46880773493f894fa492db1'; check that column/key exists
+2016-11-26 18:39:15 ERROR SchemaExport:425 - HHH000389: Unsuccessful: alter table CAR_SERVICE drop foreign key FK_f2326b9d5f4f46faa29c5b1422c
+2016-11-26 18:39:15 ERROR SchemaExport:426 - Can't DROP 'FK_f2326b9d5f4f46faa29c5b1422c'; check that column/key exists
+2016-11-26 18:39:15 ERROR SchemaExport:425 - HHH000389: Unsuccessful: alter table cars drop foreign key FK_9ff512294fa7484b9f9ff9d26be
+2016-11-26 18:39:15 ERROR SchemaExport:426 - Can't DROP 'FK_9ff512294fa7484b9f9ff9d26be'; check that column/key exists
+2016-11-26 18:39:15 ERROR SchemaExport:425 - HHH000389: Unsuccessful: alter table cars drop foreign key FK_d1981472d8664579b7070cac0e0
+2016-11-26 18:39:15 ERROR SchemaExport:426 - Can't DROP 'FK_d1981472d8664579b7070cac0e0'; check that column/key exists
+2016-11-26 18:39:22 INFO  SchemaExport:405 - HHH000230: Schema export complete
+2016-11-26 18:40:21 INFO  CarController:103 - Car was deleted!
+2016-11-26 18:41:32 INFO  Version:37 - HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+2016-11-26 18:41:32 INFO  Version:41 - HHH000412: Hibernate Core {4.2.1.Final}
+2016-11-26 18:41:32 INFO  Environment:239 - HHH000206: hibernate.properties not found
+2016-11-26 18:41:32 INFO  Environment:342 - HHH000021: Bytecode provider name : javassist
+2016-11-26 18:41:33 INFO  DriverManagerConnectionProviderImpl:98 - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2016-11-26 18:41:33 INFO  DriverManagerConnectionProviderImpl:134 - HHH000115: Hibernate connection pool size: 20
+2016-11-26 18:41:33 INFO  DriverManagerConnectionProviderImpl:137 - HHH000006: Autocommit mode: true
+2016-11-26 18:41:33 INFO  DriverManagerConnectionProviderImpl:151 - HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/carsdb44]
+2016-11-26 18:41:33 INFO  DriverManagerConnectionProviderImpl:156 - HHH000046: Connection properties: {user=root, password=****, autocommit=true, release_mode=auto}
+2016-11-26 18:41:33 INFO  Dialect:128 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2016-11-26 18:41:34 INFO  TransactionFactoryInitiator:73 - HHH000268: Transaction strategy: org.hibernate.engine.transaction.internal.jdbc.JdbcTransactionFactory
+2016-11-26 18:41:34 INFO  ASTQueryTranslatorFactory:48 - HHH000397: Using ASTQueryTranslatorFactory
+2016-11-26 18:41:34 INFO  SchemaExport:343 - HHH000227: Running hbm2ddl schema export
+2016-11-26 18:41:34 ERROR SchemaExport:425 - HHH000389: Unsuccessful: alter table CAR_SERVICE drop foreign key FK_7623b97d872c4b05b91f5503965
+2016-11-26 18:41:34 ERROR SchemaExport:426 - Can't DROP 'FK_7623b97d872c4b05b91f5503965'; check that column/key exists
+2016-11-26 18:41:34 ERROR SchemaExport:425 - HHH000389: Unsuccessful: alter table CAR_SERVICE drop foreign key FK_1dfd355f647f4d27a36166aea4e
+2016-11-26 18:41:34 ERROR SchemaExport:426 - Can't DROP 'FK_1dfd355f647f4d27a36166aea4e'; check that column/key exists
+2016-11-26 18:41:34 ERROR SchemaExport:425 - HHH000389: Unsuccessful: alter table cars drop foreign key FK_d7102b09275948d49e348647ded
+2016-11-26 18:41:34 ERROR SchemaExport:426 - Can't DROP 'FK_d7102b09275948d49e348647ded'; check that column/key exists
+2016-11-26 18:41:34 ERROR SchemaExport:425 - HHH000389: Unsuccessful: alter table cars drop foreign key FK_31f6286c4ee54be389e60622cfc
+2016-11-26 18:41:34 ERROR SchemaExport:426 - Can't DROP 'FK_31f6286c4ee54be389e60622cfc'; check that column/key exists
+2016-11-26 18:41:40 INFO  SchemaExport:405 - HHH000230: Schema export complete
+2016-11-26 18:42:44 INFO  Version:37 - HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+2016-11-26 18:42:44 INFO  Version:41 - HHH000412: Hibernate Core {4.2.1.Final}
+2016-11-26 18:42:44 INFO  Environment:239 - HHH000206: hibernate.properties not found
+2016-11-26 18:42:44 INFO  Environment:342 - HHH000021: Bytecode provider name : javassist
+2016-11-26 18:42:45 INFO  DriverManagerConnectionProviderImpl:98 - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2016-11-26 18:42:45 INFO  DriverManagerConnectionProviderImpl:134 - HHH000115: Hibernate connection pool size: 20
+2016-11-26 18:42:45 INFO  DriverManagerConnectionProviderImpl:137 - HHH000006: Autocommit mode: true
+2016-11-26 18:42:45 INFO  DriverManagerConnectionProviderImpl:151 - HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/carsdb44]
+2016-11-26 18:42:45 INFO  DriverManagerConnectionProviderImpl:156 - HHH000046: Connection properties: {user=root, password=****, autocommit=true, release_mode=auto}
+2016-11-26 18:42:45 INFO  Dialect:128 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2016-11-26 18:42:45 INFO  TransactionFactoryInitiator:73 - HHH000268: Transaction strategy: org.hibernate.engine.transaction.internal.jdbc.JdbcTransactionFactory
+2016-11-26 18:42:45 INFO  ASTQueryTranslatorFactory:48 - HHH000397: Using ASTQueryTranslatorFactory
+2016-11-26 18:42:46 INFO  SchemaExport:343 - HHH000227: Running hbm2ddl schema export
+2016-11-26 18:42:46 ERROR SchemaExport:425 - HHH000389: Unsuccessful: alter table CAR_SERVICE drop foreign key FK_2babfac9d01d44fbac6eb7a5c16
+2016-11-26 18:42:46 ERROR SchemaExport:426 - Can't DROP 'FK_2babfac9d01d44fbac6eb7a5c16'; check that column/key exists
+2016-11-26 18:42:46 ERROR SchemaExport:425 - HHH000389: Unsuccessful: alter table CAR_SERVICE drop foreign key FK_7ffe87cc00634cb18b7031c5188
+2016-11-26 18:42:46 ERROR SchemaExport:426 - Can't DROP 'FK_7ffe87cc00634cb18b7031c5188'; check that column/key exists
+2016-11-26 18:42:46 ERROR SchemaExport:425 - HHH000389: Unsuccessful: alter table cars drop foreign key FK_62ec133e56bb4554b482cd82bae
+2016-11-26 18:42:46 ERROR SchemaExport:426 - Can't DROP 'FK_62ec133e56bb4554b482cd82bae'; check that column/key exists
+2016-11-26 18:42:46 ERROR SchemaExport:425 - HHH000389: Unsuccessful: alter table cars drop foreign key FK_f344f20fd78748e1abdda6189eb
+2016-11-26 18:42:46 ERROR SchemaExport:426 - Can't DROP 'FK_f344f20fd78748e1abdda6189eb'; check that column/key exists
+2016-11-26 18:42:53 INFO  SchemaExport:405 - HHH000230: Schema export complete
+2016-11-26 18:43:23 INFO  Version:37 - HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+2016-11-26 18:43:23 INFO  Version:41 - HHH000412: Hibernate Core {4.2.1.Final}
+2016-11-26 18:43:23 INFO  Environment:239 - HHH000206: hibernate.properties not found
+2016-11-26 18:43:23 INFO  Environment:342 - HHH000021: Bytecode provider name : javassist
+2016-11-26 18:43:24 INFO  DriverManagerConnectionProviderImpl:98 - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2016-11-26 18:43:24 INFO  DriverManagerConnectionProviderImpl:134 - HHH000115: Hibernate connection pool size: 20
+2016-11-26 18:43:24 INFO  DriverManagerConnectionProviderImpl:137 - HHH000006: Autocommit mode: true
+2016-11-26 18:43:24 INFO  DriverManagerConnectionProviderImpl:151 - HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/carsdb44]
+2016-11-26 18:43:24 INFO  DriverManagerConnectionProviderImpl:156 - HHH000046: Connection properties: {user=root, password=****, autocommit=true, release_mode=auto}
+2016-11-26 18:43:26 INFO  Dialect:128 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2016-11-26 18:43:26 INFO  TransactionFactoryInitiator:73 - HHH000268: Transaction strategy: org.hibernate.engine.transaction.internal.jdbc.JdbcTransactionFactory
+2016-11-26 18:43:26 INFO  ASTQueryTranslatorFactory:48 - HHH000397: Using ASTQueryTranslatorFactory
+2016-11-26 18:43:26 INFO  SchemaExport:343 - HHH000227: Running hbm2ddl schema export
+2016-11-26 18:43:26 ERROR SchemaExport:425 - HHH000389: Unsuccessful: alter table CAR_SERVICE drop foreign key FK_abc8f6bf4d5f46fba36ab460a78
+2016-11-26 18:43:26 ERROR SchemaExport:426 - Can't DROP 'FK_abc8f6bf4d5f46fba36ab460a78'; check that column/key exists
+2016-11-26 18:43:26 ERROR SchemaExport:425 - HHH000389: Unsuccessful: alter table CAR_SERVICE drop foreign key FK_5d688c604f824da1a3b66e6bf13
+2016-11-26 18:43:26 ERROR SchemaExport:426 - Can't DROP 'FK_5d688c604f824da1a3b66e6bf13'; check that column/key exists
+2016-11-26 18:43:27 ERROR SchemaExport:425 - HHH000389: Unsuccessful: alter table cars drop foreign key FK_9d9b273de5934184ab696512cfa
+2016-11-26 18:43:27 ERROR SchemaExport:426 - Can't DROP 'FK_9d9b273de5934184ab696512cfa'; check that column/key exists
+2016-11-26 18:43:27 ERROR SchemaExport:425 - HHH000389: Unsuccessful: alter table cars drop foreign key FK_febfa40fbc474e2ca48bef093d7
+2016-11-26 18:43:27 ERROR SchemaExport:426 - Can't DROP 'FK_febfa40fbc474e2ca48bef093d7'; check that column/key exists
+2016-11-26 18:43:34 INFO  SchemaExport:405 - HHH000230: Schema export complete
+2016-11-26 18:45:35 INFO  CarController:98 - Car was updated!
+2016-11-26 18:46:32 INFO  CarController:98 - Car was updated!
+2016-11-26 19:03:39 INFO  Version:37 - HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+2016-11-26 19:03:39 INFO  Version:41 - HHH000412: Hibernate Core {4.2.1.Final}
+2016-11-26 19:03:39 INFO  Environment:239 - HHH000206: hibernate.properties not found
+2016-11-26 19:03:39 INFO  Environment:342 - HHH000021: Bytecode provider name : javassist
+2016-11-26 19:03:40 INFO  DriverManagerConnectionProviderImpl:98 - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2016-11-26 19:03:40 INFO  DriverManagerConnectionProviderImpl:134 - HHH000115: Hibernate connection pool size: 20
+2016-11-26 19:03:40 INFO  DriverManagerConnectionProviderImpl:137 - HHH000006: Autocommit mode: true
+2016-11-26 19:03:40 INFO  DriverManagerConnectionProviderImpl:151 - HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/carsdb44]
+2016-11-26 19:03:40 INFO  DriverManagerConnectionProviderImpl:156 - HHH000046: Connection properties: {user=root, password=****, autocommit=true, release_mode=auto}
+2016-11-26 19:03:40 INFO  Dialect:128 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2016-11-26 19:03:40 INFO  TransactionFactoryInitiator:73 - HHH000268: Transaction strategy: org.hibernate.engine.transaction.internal.jdbc.JdbcTransactionFactory
+2016-11-26 19:03:40 INFO  ASTQueryTranslatorFactory:48 - HHH000397: Using ASTQueryTranslatorFactory
+2016-11-26 19:03:41 INFO  SchemaExport:343 - HHH000227: Running hbm2ddl schema export
+2016-11-26 19:03:41 ERROR SchemaExport:425 - HHH000389: Unsuccessful: alter table CAR_SERVICE drop foreign key FK_0ddf10cb510344ad9a97eab9ba5
+2016-11-26 19:03:41 ERROR SchemaExport:426 - Can't DROP 'FK_0ddf10cb510344ad9a97eab9ba5'; check that column/key exists
+2016-11-26 19:03:41 ERROR SchemaExport:425 - HHH000389: Unsuccessful: alter table CAR_SERVICE drop foreign key FK_dd53f77c080f428dae6493acf44
+2016-11-26 19:03:41 ERROR SchemaExport:426 - Can't DROP 'FK_dd53f77c080f428dae6493acf44'; check that column/key exists
+2016-11-26 19:03:41 ERROR SchemaExport:425 - HHH000389: Unsuccessful: alter table cars drop foreign key FK_e7e2aeff2b8c451eafe036b2982
+2016-11-26 19:03:41 ERROR SchemaExport:426 - Can't DROP 'FK_e7e2aeff2b8c451eafe036b2982'; check that column/key exists
+2016-11-26 19:03:41 ERROR SchemaExport:425 - HHH000389: Unsuccessful: alter table cars drop foreign key FK_43a9ffdce33c41c7acb66e9c559
+2016-11-26 19:03:41 ERROR SchemaExport:426 - Can't DROP 'FK_43a9ffdce33c41c7acb66e9c559'; check that column/key exists
+2016-11-26 19:03:48 INFO  SchemaExport:405 - HHH000230: Schema export complete
+2016-11-26 19:03:59 INFO  Version:37 - HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+2016-11-26 19:03:59 INFO  Version:41 - HHH000412: Hibernate Core {4.2.1.Final}
+2016-11-26 19:03:59 INFO  Environment:239 - HHH000206: hibernate.properties not found
+2016-11-26 19:03:59 INFO  Environment:342 - HHH000021: Bytecode provider name : javassist
+2016-11-26 19:04:00 INFO  DriverManagerConnectionProviderImpl:98 - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2016-11-26 19:04:00 INFO  DriverManagerConnectionProviderImpl:134 - HHH000115: Hibernate connection pool size: 20
+2016-11-26 19:04:00 INFO  DriverManagerConnectionProviderImpl:137 - HHH000006: Autocommit mode: true
+2016-11-26 19:04:00 INFO  DriverManagerConnectionProviderImpl:151 - HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/carsdb44]
+2016-11-26 19:04:00 INFO  DriverManagerConnectionProviderImpl:156 - HHH000046: Connection properties: {user=root, password=****, autocommit=true, release_mode=auto}
+2016-11-26 19:04:01 INFO  Dialect:128 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2016-11-26 19:04:01 INFO  TransactionFactoryInitiator:73 - HHH000268: Transaction strategy: org.hibernate.engine.transaction.internal.jdbc.JdbcTransactionFactory
+2016-11-26 19:04:01 INFO  ASTQueryTranslatorFactory:48 - HHH000397: Using ASTQueryTranslatorFactory
+2016-11-26 19:04:02 INFO  SchemaExport:343 - HHH000227: Running hbm2ddl schema export
+2016-11-26 19:04:02 ERROR SchemaExport:425 - HHH000389: Unsuccessful: alter table CAR_SERVICE drop foreign key FK_136df580ad764dd9ae55f61f256
+2016-11-26 19:04:02 ERROR SchemaExport:426 - Can't DROP 'FK_136df580ad764dd9ae55f61f256'; check that column/key exists
+2016-11-26 19:04:02 ERROR SchemaExport:425 - HHH000389: Unsuccessful: alter table CAR_SERVICE drop foreign key FK_a405260575fd43c38ed31881c02
+2016-11-26 19:04:02 ERROR SchemaExport:426 - Can't DROP 'FK_a405260575fd43c38ed31881c02'; check that column/key exists
+2016-11-26 19:04:02 ERROR SchemaExport:425 - HHH000389: Unsuccessful: alter table cars drop foreign key FK_a94dff8986d9487f894f1fbc780
+2016-11-26 19:04:02 ERROR SchemaExport:426 - Can't DROP 'FK_a94dff8986d9487f894f1fbc780'; check that column/key exists
+2016-11-26 19:04:02 ERROR SchemaExport:425 - HHH000389: Unsuccessful: alter table cars drop foreign key FK_b560691332734929af27dba163c
+2016-11-26 19:04:02 ERROR SchemaExport:426 - Can't DROP 'FK_b560691332734929af27dba163c'; check that column/key exists
+2016-11-26 19:04:08 INFO  SchemaExport:405 - HHH000230: Schema export complete
+2016-11-26 19:06:39 INFO  Version:37 - HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+2016-11-26 19:06:39 INFO  Version:41 - HHH000412: Hibernate Core {4.2.1.Final}
+2016-11-26 19:06:39 INFO  Environment:239 - HHH000206: hibernate.properties not found
+2016-11-26 19:06:39 INFO  Environment:342 - HHH000021: Bytecode provider name : javassist
+2016-11-26 19:06:40 INFO  DriverManagerConnectionProviderImpl:98 - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2016-11-26 19:06:40 INFO  DriverManagerConnectionProviderImpl:134 - HHH000115: Hibernate connection pool size: 20
+2016-11-26 19:06:40 INFO  DriverManagerConnectionProviderImpl:137 - HHH000006: Autocommit mode: true
+2016-11-26 19:06:40 INFO  DriverManagerConnectionProviderImpl:151 - HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/carsdb44]
+2016-11-26 19:06:40 INFO  DriverManagerConnectionProviderImpl:156 - HHH000046: Connection properties: {user=root, password=****, autocommit=true, release_mode=auto}
+2016-11-26 19:06:42 INFO  Dialect:128 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2016-11-26 19:06:42 INFO  TransactionFactoryInitiator:73 - HHH000268: Transaction strategy: org.hibernate.engine.transaction.internal.jdbc.JdbcTransactionFactory
+2016-11-26 19:06:42 INFO  ASTQueryTranslatorFactory:48 - HHH000397: Using ASTQueryTranslatorFactory
+2016-11-26 19:06:42 INFO  SchemaExport:343 - HHH000227: Running hbm2ddl schema export
+2016-11-26 19:06:42 ERROR SchemaExport:425 - HHH000389: Unsuccessful: alter table CAR_SERVICE drop foreign key FK_9ca4c965cea648daa3b54209828
+2016-11-26 19:06:42 ERROR SchemaExport:426 - Can't DROP 'FK_9ca4c965cea648daa3b54209828'; check that column/key exists
+2016-11-26 19:06:42 ERROR SchemaExport:425 - HHH000389: Unsuccessful: alter table CAR_SERVICE drop foreign key FK_796c0b26da2341d7a96c321c02c
+2016-11-26 19:06:42 ERROR SchemaExport:426 - Can't DROP 'FK_796c0b26da2341d7a96c321c02c'; check that column/key exists
+2016-11-26 19:06:42 ERROR SchemaExport:425 - HHH000389: Unsuccessful: alter table cars drop foreign key FK_ad5340b2e53949a2889e59ec38d
+2016-11-26 19:06:42 ERROR SchemaExport:426 - Can't DROP 'FK_ad5340b2e53949a2889e59ec38d'; check that column/key exists
+2016-11-26 19:06:42 ERROR SchemaExport:425 - HHH000389: Unsuccessful: alter table cars drop foreign key FK_1e47bff894e745e99cf11aac027
+2016-11-26 19:06:42 ERROR SchemaExport:426 - Can't DROP 'FK_1e47bff894e745e99cf11aac027'; check that column/key exists
+2016-11-26 19:06:49 INFO  SchemaExport:405 - HHH000230: Schema export complete
+2016-11-26 19:07:18 INFO  Version:37 - HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+2016-11-26 19:07:18 INFO  Version:41 - HHH000412: Hibernate Core {4.2.1.Final}
+2016-11-26 19:07:18 INFO  Environment:239 - HHH000206: hibernate.properties not found
+2016-11-26 19:07:18 INFO  Environment:342 - HHH000021: Bytecode provider name : javassist
+2016-11-26 19:07:19 INFO  DriverManagerConnectionProviderImpl:98 - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2016-11-26 19:07:19 INFO  DriverManagerConnectionProviderImpl:134 - HHH000115: Hibernate connection pool size: 20
+2016-11-26 19:07:19 INFO  DriverManagerConnectionProviderImpl:137 - HHH000006: Autocommit mode: true
+2016-11-26 19:07:19 INFO  DriverManagerConnectionProviderImpl:151 - HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/carsdb44]
+2016-11-26 19:07:19 INFO  DriverManagerConnectionProviderImpl:156 - HHH000046: Connection properties: {user=root, password=****, autocommit=true, release_mode=auto}
+2016-11-26 19:07:20 INFO  Dialect:128 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2016-11-26 19:07:20 INFO  TransactionFactoryInitiator:73 - HHH000268: Transaction strategy: org.hibernate.engine.transaction.internal.jdbc.JdbcTransactionFactory
+2016-11-26 19:07:20 INFO  ASTQueryTranslatorFactory:48 - HHH000397: Using ASTQueryTranslatorFactory
+2016-11-26 19:07:20 INFO  SchemaExport:343 - HHH000227: Running hbm2ddl schema export
+2016-11-26 19:07:21 ERROR SchemaExport:425 - HHH000389: Unsuccessful: alter table CAR_SERVICE drop foreign key FK_7e756c014e88409e89eaa7460b3
+2016-11-26 19:07:21 ERROR SchemaExport:426 - Can't DROP 'FK_7e756c014e88409e89eaa7460b3'; check that column/key exists
+2016-11-26 19:07:21 ERROR SchemaExport:425 - HHH000389: Unsuccessful: alter table CAR_SERVICE drop foreign key FK_5a1f927a84b94fab8c122ff9ce9
+2016-11-26 19:07:21 ERROR SchemaExport:426 - Can't DROP 'FK_5a1f927a84b94fab8c122ff9ce9'; check that column/key exists
+2016-11-26 19:07:21 ERROR SchemaExport:425 - HHH000389: Unsuccessful: alter table cars drop foreign key FK_f74263f268ba4efc9febd927d0b
+2016-11-26 19:07:21 ERROR SchemaExport:426 - Can't DROP 'FK_f74263f268ba4efc9febd927d0b'; check that column/key exists
+2016-11-26 19:07:21 ERROR SchemaExport:425 - HHH000389: Unsuccessful: alter table cars drop foreign key FK_5b4b5d81abe1401aae923008663
+2016-11-26 19:07:21 ERROR SchemaExport:426 - Can't DROP 'FK_5b4b5d81abe1401aae923008663'; check that column/key exists
+2016-11-26 19:07:28 INFO  SchemaExport:405 - HHH000230: Schema export complete
+2016-11-26 19:13:02 INFO  Version:37 - HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+2016-11-26 19:13:02 INFO  Version:41 - HHH000412: Hibernate Core {4.2.1.Final}
+2016-11-26 19:13:02 INFO  Environment:239 - HHH000206: hibernate.properties not found
+2016-11-26 19:13:02 INFO  Environment:342 - HHH000021: Bytecode provider name : javassist
+2016-11-26 19:13:03 INFO  DriverManagerConnectionProviderImpl:98 - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2016-11-26 19:13:03 INFO  DriverManagerConnectionProviderImpl:134 - HHH000115: Hibernate connection pool size: 20
+2016-11-26 19:13:03 INFO  DriverManagerConnectionProviderImpl:137 - HHH000006: Autocommit mode: true
+2016-11-26 19:13:03 INFO  DriverManagerConnectionProviderImpl:151 - HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/carsdb44]
+2016-11-26 19:13:03 INFO  DriverManagerConnectionProviderImpl:156 - HHH000046: Connection properties: {user=root, password=****, autocommit=true, release_mode=auto}
+2016-11-26 19:13:03 INFO  Dialect:128 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2016-11-26 19:13:03 INFO  TransactionFactoryInitiator:73 - HHH000268: Transaction strategy: org.hibernate.engine.transaction.internal.jdbc.JdbcTransactionFactory
+2016-11-26 19:13:03 INFO  ASTQueryTranslatorFactory:48 - HHH000397: Using ASTQueryTranslatorFactory
+2016-11-26 19:13:04 INFO  SchemaExport:343 - HHH000227: Running hbm2ddl schema export
+2016-11-26 19:13:04 ERROR SchemaExport:425 - HHH000389: Unsuccessful: alter table CAR_SERVICE drop foreign key FK_bf5f50f7642248128344c4c9d57
+2016-11-26 19:13:04 ERROR SchemaExport:426 - Can't DROP 'FK_bf5f50f7642248128344c4c9d57'; check that column/key exists
+2016-11-26 19:13:04 ERROR SchemaExport:425 - HHH000389: Unsuccessful: alter table CAR_SERVICE drop foreign key FK_218e899f2e10434e932ba40149e
+2016-11-26 19:13:04 ERROR SchemaExport:426 - Can't DROP 'FK_218e899f2e10434e932ba40149e'; check that column/key exists
+2016-11-26 19:13:04 ERROR SchemaExport:425 - HHH000389: Unsuccessful: alter table cars drop foreign key FK_06c11c6b36eb4abca0790c4f8dc
+2016-11-26 19:13:04 ERROR SchemaExport:426 - Can't DROP 'FK_06c11c6b36eb4abca0790c4f8dc'; check that column/key exists
+2016-11-26 19:13:04 ERROR SchemaExport:425 - HHH000389: Unsuccessful: alter table cars drop foreign key FK_a585cd98857a4606ace4293a888
+2016-11-26 19:13:04 ERROR SchemaExport:426 - Can't DROP 'FK_a585cd98857a4606ace4293a888'; check that column/key exists
+2016-11-26 19:13:09 INFO  SchemaExport:405 - HHH000230: Schema export complete
+2016-11-26 19:15:29 INFO  Version:37 - HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+2016-11-26 19:15:29 INFO  Version:41 - HHH000412: Hibernate Core {4.2.1.Final}
+2016-11-26 19:15:29 INFO  Environment:239 - HHH000206: hibernate.properties not found
+2016-11-26 19:15:29 INFO  Environment:342 - HHH000021: Bytecode provider name : javassist
+2016-11-26 19:15:30 INFO  DriverManagerConnectionProviderImpl:98 - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2016-11-26 19:15:30 INFO  DriverManagerConnectionProviderImpl:134 - HHH000115: Hibernate connection pool size: 20
+2016-11-26 19:15:30 INFO  DriverManagerConnectionProviderImpl:137 - HHH000006: Autocommit mode: true
+2016-11-26 19:15:30 INFO  DriverManagerConnectionProviderImpl:151 - HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/carsdb44]
+2016-11-26 19:15:30 INFO  DriverManagerConnectionProviderImpl:156 - HHH000046: Connection properties: {user=root, password=****, autocommit=true, release_mode=auto}
+2016-11-26 19:15:31 INFO  Dialect:128 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2016-11-26 19:15:31 INFO  TransactionFactoryInitiator:73 - HHH000268: Transaction strategy: org.hibernate.engine.transaction.internal.jdbc.JdbcTransactionFactory
+2016-11-26 19:15:31 INFO  ASTQueryTranslatorFactory:48 - HHH000397: Using ASTQueryTranslatorFactory
+2016-11-26 19:15:31 INFO  SchemaExport:343 - HHH000227: Running hbm2ddl schema export
+2016-11-26 19:15:32 ERROR SchemaExport:425 - HHH000389: Unsuccessful: alter table CAR_SERVICE drop foreign key FK_f16ccdff9e044987a6b89274624
+2016-11-26 19:15:32 ERROR SchemaExport:426 - Can't DROP 'FK_f16ccdff9e044987a6b89274624'; check that column/key exists
+2016-11-26 19:15:32 ERROR SchemaExport:425 - HHH000389: Unsuccessful: alter table CAR_SERVICE drop foreign key FK_b55926458e704cfeadf46f2b1c0
+2016-11-26 19:15:32 ERROR SchemaExport:426 - Can't DROP 'FK_b55926458e704cfeadf46f2b1c0'; check that column/key exists
+2016-11-26 19:15:32 ERROR SchemaExport:425 - HHH000389: Unsuccessful: alter table cars drop foreign key FK_935a4ec401f549af8880d278acc
+2016-11-26 19:15:32 ERROR SchemaExport:426 - Can't DROP 'FK_935a4ec401f549af8880d278acc'; check that column/key exists
+2016-11-26 19:15:32 ERROR SchemaExport:425 - HHH000389: Unsuccessful: alter table cars drop foreign key FK_f3532067774f4bc697e50171601
+2016-11-26 19:15:32 ERROR SchemaExport:426 - Can't DROP 'FK_f3532067774f4bc697e50171601'; check that column/key exists
+2016-11-26 19:15:53 INFO  SchemaExport:405 - HHH000230: Schema export complete
+2016-11-26 22:01:17 INFO  Version:37 - HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+2016-11-26 22:01:17 INFO  Version:41 - HHH000412: Hibernate Core {4.2.1.Final}
+2016-11-26 22:01:17 INFO  Environment:239 - HHH000206: hibernate.properties not found
+2016-11-26 22:01:17 INFO  Environment:342 - HHH000021: Bytecode provider name : javassist
+2016-11-26 22:01:20 INFO  DriverManagerConnectionProviderImpl:98 - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2016-11-26 22:01:20 INFO  DriverManagerConnectionProviderImpl:134 - HHH000115: Hibernate connection pool size: 20
+2016-11-26 22:01:20 INFO  DriverManagerConnectionProviderImpl:137 - HHH000006: Autocommit mode: true
+2016-11-26 22:01:20 INFO  DriverManagerConnectionProviderImpl:151 - HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/carsdb44]
+2016-11-26 22:01:20 INFO  DriverManagerConnectionProviderImpl:156 - HHH000046: Connection properties: {user=root, password=****, autocommit=true, release_mode=auto}
+2016-11-26 22:01:25 INFO  Dialect:128 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2016-11-26 22:01:25 INFO  TransactionFactoryInitiator:73 - HHH000268: Transaction strategy: org.hibernate.engine.transaction.internal.jdbc.JdbcTransactionFactory
+2016-11-26 22:01:25 INFO  ASTQueryTranslatorFactory:48 - HHH000397: Using ASTQueryTranslatorFactory
+2016-11-26 22:01:30 INFO  SchemaExport:343 - HHH000227: Running hbm2ddl schema export
+2016-11-26 22:01:31 ERROR SchemaExport:425 - HHH000389: Unsuccessful: alter table CAR_SERVICE drop foreign key FK_59e0323b17ed46ce9d01b404497
+2016-11-26 22:01:31 ERROR SchemaExport:426 - Can't DROP 'FK_59e0323b17ed46ce9d01b404497'; check that column/key exists
+2016-11-26 22:01:31 ERROR SchemaExport:425 - HHH000389: Unsuccessful: alter table CAR_SERVICE drop foreign key FK_a48b8e3057294de2b83c69d40c9
+2016-11-26 22:01:31 ERROR SchemaExport:426 - Can't DROP 'FK_a48b8e3057294de2b83c69d40c9'; check that column/key exists
+2016-11-26 22:01:32 ERROR SchemaExport:425 - HHH000389: Unsuccessful: alter table cars drop foreign key FK_9838be5670ee4bf0a66a6031c65
+2016-11-26 22:01:32 ERROR SchemaExport:426 - Can't DROP 'FK_9838be5670ee4bf0a66a6031c65'; check that column/key exists
+2016-11-26 22:01:32 ERROR SchemaExport:425 - HHH000389: Unsuccessful: alter table cars drop foreign key FK_5371fdd886d845f281f79cafb69
+2016-11-26 22:01:32 ERROR SchemaExport:426 - Can't DROP 'FK_5371fdd886d845f281f79cafb69'; check that column/key exists
+2016-11-26 22:02:00 INFO  SchemaExport:405 - HHH000230: Schema export complete
+2016-11-27 00:52:49 INFO  Version:37 - HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+2016-11-27 00:52:49 INFO  Version:41 - HHH000412: Hibernate Core {4.2.1.Final}
+2016-11-27 00:52:49 INFO  Environment:239 - HHH000206: hibernate.properties not found
+2016-11-27 00:52:49 INFO  Environment:342 - HHH000021: Bytecode provider name : javassist
+2016-11-27 00:52:51 INFO  DriverManagerConnectionProviderImpl:98 - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2016-11-27 00:52:51 INFO  DriverManagerConnectionProviderImpl:134 - HHH000115: Hibernate connection pool size: 20
+2016-11-27 00:52:51 INFO  DriverManagerConnectionProviderImpl:137 - HHH000006: Autocommit mode: true
+2016-11-27 00:52:51 INFO  DriverManagerConnectionProviderImpl:151 - HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/carsdb44]
+2016-11-27 00:52:51 INFO  DriverManagerConnectionProviderImpl:156 - HHH000046: Connection properties: {user=root, password=****, autocommit=true, release_mode=auto}
+2016-11-27 00:52:54 INFO  Dialect:128 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2016-11-27 00:52:54 INFO  TransactionFactoryInitiator:73 - HHH000268: Transaction strategy: org.hibernate.engine.transaction.internal.jdbc.JdbcTransactionFactory
+2016-11-27 00:52:54 INFO  ASTQueryTranslatorFactory:48 - HHH000397: Using ASTQueryTranslatorFactory
+2016-11-27 00:52:55 INFO  SchemaExport:343 - HHH000227: Running hbm2ddl schema export
+2016-11-27 00:52:56 ERROR SchemaExport:425 - HHH000389: Unsuccessful: alter table CAR_SERVICE drop foreign key FK_12d456fdb3d04046b6b85a2df83
+2016-11-27 00:52:56 ERROR SchemaExport:426 - Can't DROP 'FK_12d456fdb3d04046b6b85a2df83'; check that column/key exists
+2016-11-27 00:52:56 ERROR SchemaExport:425 - HHH000389: Unsuccessful: alter table CAR_SERVICE drop foreign key FK_a55b0c764e15439da11fe91c6ea
+2016-11-27 00:52:56 ERROR SchemaExport:426 - Can't DROP 'FK_a55b0c764e15439da11fe91c6ea'; check that column/key exists
+2016-11-27 00:52:57 ERROR SchemaExport:425 - HHH000389: Unsuccessful: alter table cars drop foreign key FK_8cd829478d634f5894e9a330def
+2016-11-27 00:52:57 ERROR SchemaExport:426 - Can't DROP 'FK_8cd829478d634f5894e9a330def'; check that column/key exists
+2016-11-27 00:52:57 ERROR SchemaExport:425 - HHH000389: Unsuccessful: alter table cars drop foreign key FK_120ce91a3d1a43d7a2da4b451e6
+2016-11-27 00:52:57 ERROR SchemaExport:426 - Can't DROP 'FK_120ce91a3d1a43d7a2da4b451e6'; check that column/key exists
+2016-11-27 00:53:11 INFO  SchemaExport:405 - HHH000230: Schema export complete
+2016-11-27 01:23:09 INFO  Version:37 - HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+2016-11-27 01:23:09 INFO  Version:41 - HHH000412: Hibernate Core {4.2.1.Final}
+2016-11-27 01:23:09 INFO  Environment:239 - HHH000206: hibernate.properties not found
+2016-11-27 01:23:09 INFO  Environment:342 - HHH000021: Bytecode provider name : javassist
+2016-11-27 01:23:11 INFO  DriverManagerConnectionProviderImpl:98 - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2016-11-27 01:23:11 INFO  DriverManagerConnectionProviderImpl:134 - HHH000115: Hibernate connection pool size: 20
+2016-11-27 01:23:11 INFO  DriverManagerConnectionProviderImpl:137 - HHH000006: Autocommit mode: true
+2016-11-27 01:23:11 INFO  DriverManagerConnectionProviderImpl:151 - HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/carsdb44]
+2016-11-27 01:23:11 INFO  DriverManagerConnectionProviderImpl:156 - HHH000046: Connection properties: {user=root, password=****, autocommit=true, release_mode=auto}
+2016-11-27 01:23:14 INFO  Dialect:128 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2016-11-27 01:23:14 INFO  TransactionFactoryInitiator:73 - HHH000268: Transaction strategy: org.hibernate.engine.transaction.internal.jdbc.JdbcTransactionFactory
+2016-11-27 01:23:14 INFO  ASTQueryTranslatorFactory:48 - HHH000397: Using ASTQueryTranslatorFactory
+2016-11-27 01:23:16 INFO  SchemaExport:343 - HHH000227: Running hbm2ddl schema export
+2016-11-27 01:23:16 ERROR SchemaExport:425 - HHH000389: Unsuccessful: alter table CAR_SERVICE drop foreign key FK_6e755206f1f647f39db30a87d1e
+2016-11-27 01:23:16 ERROR SchemaExport:426 - Can't DROP 'FK_6e755206f1f647f39db30a87d1e'; check that column/key exists
+2016-11-27 01:23:16 ERROR SchemaExport:425 - HHH000389: Unsuccessful: alter table CAR_SERVICE drop foreign key FK_290b9cf2eeca4947aa61865f99b
+2016-11-27 01:23:17 ERROR SchemaExport:426 - Can't DROP 'FK_290b9cf2eeca4947aa61865f99b'; check that column/key exists
+2016-11-27 01:23:17 ERROR SchemaExport:425 - HHH000389: Unsuccessful: alter table cars drop foreign key FK_a7fd483428e14b6982a7d867937
+2016-11-27 01:23:17 ERROR SchemaExport:426 - Can't DROP 'FK_a7fd483428e14b6982a7d867937'; check that column/key exists
+2016-11-27 01:23:17 ERROR SchemaExport:425 - HHH000389: Unsuccessful: alter table cars drop foreign key FK_736ee43397cf41b1bf082f22cde
+2016-11-27 01:23:17 ERROR SchemaExport:426 - Can't DROP 'FK_736ee43397cf41b1bf082f22cde'; check that column/key exists
+2016-11-27 01:23:24 INFO  SchemaExport:405 - HHH000230: Schema export complete
+2016-11-27 01:31:28 INFO  Version:37 - HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+2016-11-27 01:31:28 INFO  Version:41 - HHH000412: Hibernate Core {4.2.1.Final}
+2016-11-27 01:31:28 INFO  Environment:239 - HHH000206: hibernate.properties not found
+2016-11-27 01:31:28 INFO  Environment:342 - HHH000021: Bytecode provider name : javassist
+2016-11-27 01:31:29 INFO  DriverManagerConnectionProviderImpl:98 - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2016-11-27 01:31:29 INFO  DriverManagerConnectionProviderImpl:134 - HHH000115: Hibernate connection pool size: 20
+2016-11-27 01:31:29 INFO  DriverManagerConnectionProviderImpl:137 - HHH000006: Autocommit mode: true
+2016-11-27 01:31:29 INFO  DriverManagerConnectionProviderImpl:151 - HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/carsdb44]
+2016-11-27 01:31:29 INFO  DriverManagerConnectionProviderImpl:156 - HHH000046: Connection properties: {user=root, password=****, autocommit=true, release_mode=auto}
+2016-11-27 01:31:30 INFO  Dialect:128 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2016-11-27 01:31:30 INFO  TransactionFactoryInitiator:73 - HHH000268: Transaction strategy: org.hibernate.engine.transaction.internal.jdbc.JdbcTransactionFactory
+2016-11-27 01:31:30 INFO  ASTQueryTranslatorFactory:48 - HHH000397: Using ASTQueryTranslatorFactory
+2016-11-27 01:31:30 INFO  SchemaExport:343 - HHH000227: Running hbm2ddl schema export
+2016-11-27 01:31:31 ERROR SchemaExport:425 - HHH000389: Unsuccessful: alter table CAR_SERVICE drop foreign key FK_e342d4091c2046ec8e3b4bea215
+2016-11-27 01:31:31 ERROR SchemaExport:426 - Can't DROP 'FK_e342d4091c2046ec8e3b4bea215'; check that column/key exists
+2016-11-27 01:31:31 ERROR SchemaExport:425 - HHH000389: Unsuccessful: alter table CAR_SERVICE drop foreign key FK_37199fce692a4a869c1c301e4bf
+2016-11-27 01:31:31 ERROR SchemaExport:426 - Can't DROP 'FK_37199fce692a4a869c1c301e4bf'; check that column/key exists
+2016-11-27 01:31:31 ERROR SchemaExport:425 - HHH000389: Unsuccessful: alter table cars drop foreign key FK_d064a2359ce445a8a5e2002980f
+2016-11-27 01:31:31 ERROR SchemaExport:426 - Can't DROP 'FK_d064a2359ce445a8a5e2002980f'; check that column/key exists
+2016-11-27 01:31:31 ERROR SchemaExport:425 - HHH000389: Unsuccessful: alter table cars drop foreign key FK_4c8dea1835a54fadb36f0082cad
+2016-11-27 01:31:31 ERROR SchemaExport:426 - Can't DROP 'FK_4c8dea1835a54fadb36f0082cad'; check that column/key exists
+2016-11-27 01:31:38 INFO  SchemaExport:405 - HHH000230: Schema export complete
+2016-11-27 01:37:36 INFO  Version:37 - HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+2016-11-27 01:37:36 INFO  Version:41 - HHH000412: Hibernate Core {4.2.1.Final}
+2016-11-27 01:37:36 INFO  Environment:239 - HHH000206: hibernate.properties not found
+2016-11-27 01:37:36 INFO  Environment:342 - HHH000021: Bytecode provider name : javassist
+2016-11-27 01:37:37 INFO  DriverManagerConnectionProviderImpl:98 - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2016-11-27 01:37:37 INFO  DriverManagerConnectionProviderImpl:134 - HHH000115: Hibernate connection pool size: 20
+2016-11-27 01:37:37 INFO  DriverManagerConnectionProviderImpl:137 - HHH000006: Autocommit mode: true
+2016-11-27 01:37:37 INFO  DriverManagerConnectionProviderImpl:151 - HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/carsdb44]
+2016-11-27 01:37:37 INFO  DriverManagerConnectionProviderImpl:156 - HHH000046: Connection properties: {user=root, password=****, autocommit=true, release_mode=auto}
+2016-11-27 01:37:38 INFO  Dialect:128 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2016-11-27 01:37:38 INFO  TransactionFactoryInitiator:73 - HHH000268: Transaction strategy: org.hibernate.engine.transaction.internal.jdbc.JdbcTransactionFactory
+2016-11-27 01:37:38 INFO  ASTQueryTranslatorFactory:48 - HHH000397: Using ASTQueryTranslatorFactory
+2016-11-27 01:37:39 INFO  SchemaExport:343 - HHH000227: Running hbm2ddl schema export
+2016-11-27 01:37:39 ERROR SchemaExport:425 - HHH000389: Unsuccessful: alter table CAR_SERVICE drop foreign key FK_00ef3fc0fad64fc08c5cd748881
+2016-11-27 01:37:39 ERROR SchemaExport:426 - Can't DROP 'FK_00ef3fc0fad64fc08c5cd748881'; check that column/key exists
+2016-11-27 01:37:39 ERROR SchemaExport:425 - HHH000389: Unsuccessful: alter table CAR_SERVICE drop foreign key FK_f2b5c566b98247bc98b9532345a
+2016-11-27 01:37:39 ERROR SchemaExport:426 - Can't DROP 'FK_f2b5c566b98247bc98b9532345a'; check that column/key exists
+2016-11-27 01:37:39 ERROR SchemaExport:425 - HHH000389: Unsuccessful: alter table cars drop foreign key FK_676a0ea1fa804ccca5c102a8203
+2016-11-27 01:37:39 ERROR SchemaExport:426 - Can't DROP 'FK_676a0ea1fa804ccca5c102a8203'; check that column/key exists
+2016-11-27 01:37:39 ERROR SchemaExport:425 - HHH000389: Unsuccessful: alter table cars drop foreign key FK_c61a2b9ff0124b7f9808718db7c
+2016-11-27 01:37:39 ERROR SchemaExport:426 - Can't DROP 'FK_c61a2b9ff0124b7f9808718db7c'; check that column/key exists
+2016-11-27 01:37:45 INFO  SchemaExport:405 - HHH000230: Schema export complete
+2016-11-27 01:38:17 INFO  CarController:85 - New registration was added successfully!
+2016-11-27 01:38:17 INFO  CarController:87 - New car was added successfully!
+2016-11-27 01:38:43 INFO  ServiceController:49 - New service was added successfully!
+2016-11-27 01:39:27 INFO  CarController:96 - Car was updated successfully!
+2016-11-27 01:48:29 INFO  Version:37 - HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+2016-11-27 01:48:29 INFO  Version:41 - HHH000412: Hibernate Core {4.2.1.Final}
+2016-11-27 01:48:29 INFO  Environment:239 - HHH000206: hibernate.properties not found
+2016-11-27 01:48:29 INFO  Environment:342 - HHH000021: Bytecode provider name : javassist
+2016-11-27 01:48:30 INFO  DriverManagerConnectionProviderImpl:98 - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2016-11-27 01:48:30 INFO  DriverManagerConnectionProviderImpl:134 - HHH000115: Hibernate connection pool size: 20
+2016-11-27 01:48:30 INFO  DriverManagerConnectionProviderImpl:137 - HHH000006: Autocommit mode: true
+2016-11-27 01:48:30 INFO  DriverManagerConnectionProviderImpl:151 - HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/carsdb44]
+2016-11-27 01:48:30 INFO  DriverManagerConnectionProviderImpl:156 - HHH000046: Connection properties: {user=root, password=****, autocommit=true, release_mode=auto}
+2016-11-27 01:48:30 INFO  Dialect:128 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2016-11-27 01:48:30 INFO  TransactionFactoryInitiator:73 - HHH000268: Transaction strategy: org.hibernate.engine.transaction.internal.jdbc.JdbcTransactionFactory
+2016-11-27 01:48:30 INFO  ASTQueryTranslatorFactory:48 - HHH000397: Using ASTQueryTranslatorFactory
+2016-11-27 01:48:31 INFO  SchemaExport:343 - HHH000227: Running hbm2ddl schema export
+2016-11-27 01:48:31 ERROR SchemaExport:425 - HHH000389: Unsuccessful: alter table CAR_SERVICE drop foreign key FK_dc9b9f6828b641928c959fe28ea
+2016-11-27 01:48:31 ERROR SchemaExport:426 - Can't DROP 'FK_dc9b9f6828b641928c959fe28ea'; check that column/key exists
+2016-11-27 01:48:31 ERROR SchemaExport:425 - HHH000389: Unsuccessful: alter table CAR_SERVICE drop foreign key FK_ea52a3339107414c8ca69f4a5f4
+2016-11-27 01:48:31 ERROR SchemaExport:426 - Can't DROP 'FK_ea52a3339107414c8ca69f4a5f4'; check that column/key exists
+2016-11-27 01:48:31 ERROR SchemaExport:425 - HHH000389: Unsuccessful: alter table cars drop foreign key FK_cbbeca3851fb45878b83b3a705d
+2016-11-27 01:48:31 ERROR SchemaExport:426 - Can't DROP 'FK_cbbeca3851fb45878b83b3a705d'; check that column/key exists
+2016-11-27 01:48:31 ERROR SchemaExport:425 - HHH000389: Unsuccessful: alter table cars drop foreign key FK_9c9f837062e94f83ab5f63e3ef8
+2016-11-27 01:48:31 ERROR SchemaExport:426 - Can't DROP 'FK_9c9f837062e94f83ab5f63e3ef8'; check that column/key exists
+2016-11-27 01:48:39 INFO  SchemaExport:405 - HHH000230: Schema export complete
+2016-11-27 01:51:57 INFO  Version:37 - HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+2016-11-27 01:51:57 INFO  Version:41 - HHH000412: Hibernate Core {4.2.1.Final}
+2016-11-27 01:51:57 INFO  Environment:239 - HHH000206: hibernate.properties not found
+2016-11-27 01:51:57 INFO  Environment:342 - HHH000021: Bytecode provider name : javassist
+2016-11-27 01:51:59 INFO  DriverManagerConnectionProviderImpl:98 - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2016-11-27 01:51:59 INFO  DriverManagerConnectionProviderImpl:134 - HHH000115: Hibernate connection pool size: 20
+2016-11-27 01:51:59 INFO  DriverManagerConnectionProviderImpl:137 - HHH000006: Autocommit mode: true
+2016-11-27 01:51:59 INFO  DriverManagerConnectionProviderImpl:151 - HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/carsdb44]
+2016-11-27 01:51:59 INFO  DriverManagerConnectionProviderImpl:156 - HHH000046: Connection properties: {user=root, password=****, autocommit=true, release_mode=auto}
+2016-11-27 01:51:59 INFO  Dialect:128 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2016-11-27 01:51:59 INFO  TransactionFactoryInitiator:73 - HHH000268: Transaction strategy: org.hibernate.engine.transaction.internal.jdbc.JdbcTransactionFactory
+2016-11-27 01:51:59 INFO  ASTQueryTranslatorFactory:48 - HHH000397: Using ASTQueryTranslatorFactory
+2016-11-27 01:52:00 INFO  SchemaExport:343 - HHH000227: Running hbm2ddl schema export
+2016-11-27 01:52:00 ERROR SchemaExport:425 - HHH000389: Unsuccessful: alter table CAR_SERVICE drop foreign key FK_683941be14a14f21baf189c46e3
+2016-11-27 01:52:00 ERROR SchemaExport:426 - Can't DROP 'FK_683941be14a14f21baf189c46e3'; check that column/key exists
+2016-11-27 01:52:00 ERROR SchemaExport:425 - HHH000389: Unsuccessful: alter table CAR_SERVICE drop foreign key FK_0847e080b9e74539bf58386a5e2
+2016-11-27 01:52:00 ERROR SchemaExport:426 - Can't DROP 'FK_0847e080b9e74539bf58386a5e2'; check that column/key exists
+2016-11-27 01:52:00 ERROR SchemaExport:425 - HHH000389: Unsuccessful: alter table cars drop foreign key FK_54a5169c8f9849c9a21e2fd6d2c
+2016-11-27 01:52:00 ERROR SchemaExport:426 - Can't DROP 'FK_54a5169c8f9849c9a21e2fd6d2c'; check that column/key exists
+2016-11-27 01:52:01 ERROR SchemaExport:425 - HHH000389: Unsuccessful: alter table cars drop foreign key FK_b90d708dea924788bb1def0f941
+2016-11-27 01:52:01 ERROR SchemaExport:426 - Can't DROP 'FK_b90d708dea924788bb1def0f941'; check that column/key exists
+2016-11-27 01:52:07 INFO  SchemaExport:405 - HHH000230: Schema export complete
+2016-11-27 01:56:01 INFO  Version:37 - HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+2016-11-27 01:56:01 INFO  Version:41 - HHH000412: Hibernate Core {4.2.1.Final}
+2016-11-27 01:56:01 INFO  Environment:239 - HHH000206: hibernate.properties not found
+2016-11-27 01:56:01 INFO  Environment:342 - HHH000021: Bytecode provider name : javassist
+2016-11-27 01:56:03 INFO  DriverManagerConnectionProviderImpl:98 - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2016-11-27 01:56:03 INFO  DriverManagerConnectionProviderImpl:134 - HHH000115: Hibernate connection pool size: 20
+2016-11-27 01:56:03 INFO  DriverManagerConnectionProviderImpl:137 - HHH000006: Autocommit mode: true
+2016-11-27 01:56:03 INFO  DriverManagerConnectionProviderImpl:151 - HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/carsdb44]
+2016-11-27 01:56:03 INFO  DriverManagerConnectionProviderImpl:156 - HHH000046: Connection properties: {user=root, password=****, autocommit=true, release_mode=auto}
+2016-11-27 01:56:03 INFO  Dialect:128 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2016-11-27 01:56:03 INFO  TransactionFactoryInitiator:73 - HHH000268: Transaction strategy: org.hibernate.engine.transaction.internal.jdbc.JdbcTransactionFactory
+2016-11-27 01:56:03 INFO  ASTQueryTranslatorFactory:48 - HHH000397: Using ASTQueryTranslatorFactory
+2016-11-27 01:56:04 INFO  SchemaExport:343 - HHH000227: Running hbm2ddl schema export
+2016-11-27 01:56:04 ERROR SchemaExport:425 - HHH000389: Unsuccessful: alter table CAR_SERVICE drop foreign key FK_0e14b8da2f2e443d98a6b885a8a
+2016-11-27 01:56:04 ERROR SchemaExport:426 - Can't DROP 'FK_0e14b8da2f2e443d98a6b885a8a'; check that column/key exists
+2016-11-27 01:56:04 ERROR SchemaExport:425 - HHH000389: Unsuccessful: alter table CAR_SERVICE drop foreign key FK_8ed918a4201e4965b576ce3c67a
+2016-11-27 01:56:04 ERROR SchemaExport:426 - Can't DROP 'FK_8ed918a4201e4965b576ce3c67a'; check that column/key exists
+2016-11-27 01:56:04 ERROR SchemaExport:425 - HHH000389: Unsuccessful: alter table cars drop foreign key FK_9bbdb83e17f741a0aecc08efd10
+2016-11-27 01:56:04 ERROR SchemaExport:426 - Can't DROP 'FK_9bbdb83e17f741a0aecc08efd10'; check that column/key exists
+2016-11-27 01:56:04 ERROR SchemaExport:425 - HHH000389: Unsuccessful: alter table cars drop foreign key FK_1ee83671a12b4b269dccbe2df1b
+2016-11-27 01:56:04 ERROR SchemaExport:426 - Can't DROP 'FK_1ee83671a12b4b269dccbe2df1b'; check that column/key exists
+2016-11-27 01:56:11 INFO  SchemaExport:405 - HHH000230: Schema export complete
+2016-11-27 01:57:38 INFO  Version:37 - HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+2016-11-27 01:57:38 INFO  Version:41 - HHH000412: Hibernate Core {4.2.1.Final}
+2016-11-27 01:57:38 INFO  Environment:239 - HHH000206: hibernate.properties not found
+2016-11-27 01:57:38 INFO  Environment:342 - HHH000021: Bytecode provider name : javassist
+2016-11-27 01:57:41 INFO  DriverManagerConnectionProviderImpl:98 - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2016-11-27 01:57:41 INFO  DriverManagerConnectionProviderImpl:134 - HHH000115: Hibernate connection pool size: 20
+2016-11-27 01:57:41 INFO  DriverManagerConnectionProviderImpl:137 - HHH000006: Autocommit mode: true
+2016-11-27 01:57:41 INFO  DriverManagerConnectionProviderImpl:151 - HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/carsdb44]
+2016-11-27 01:57:41 INFO  DriverManagerConnectionProviderImpl:156 - HHH000046: Connection properties: {user=root, password=****, autocommit=true, release_mode=auto}
+2016-11-27 01:57:42 INFO  Dialect:128 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2016-11-27 01:57:42 INFO  TransactionFactoryInitiator:73 - HHH000268: Transaction strategy: org.hibernate.engine.transaction.internal.jdbc.JdbcTransactionFactory
+2016-11-27 01:57:42 INFO  ASTQueryTranslatorFactory:48 - HHH000397: Using ASTQueryTranslatorFactory
+2016-11-27 01:57:43 INFO  SchemaExport:343 - HHH000227: Running hbm2ddl schema export
+2016-11-27 01:57:44 ERROR SchemaExport:425 - HHH000389: Unsuccessful: alter table CAR_SERVICE drop foreign key FK_3f04c55f521748298483f430ae7
+2016-11-27 01:57:44 ERROR SchemaExport:426 - Can't DROP 'FK_3f04c55f521748298483f430ae7'; check that column/key exists
+2016-11-27 01:57:44 ERROR SchemaExport:425 - HHH000389: Unsuccessful: alter table CAR_SERVICE drop foreign key FK_6b182a638e464e09a1159be78f0
+2016-11-27 01:57:44 ERROR SchemaExport:426 - Can't DROP 'FK_6b182a638e464e09a1159be78f0'; check that column/key exists
+2016-11-27 01:57:44 ERROR SchemaExport:425 - HHH000389: Unsuccessful: alter table cars drop foreign key FK_345ccde385ee466793c239c8a28
+2016-11-27 01:57:44 ERROR SchemaExport:426 - Can't DROP 'FK_345ccde385ee466793c239c8a28'; check that column/key exists
+2016-11-27 01:57:44 ERROR SchemaExport:425 - HHH000389: Unsuccessful: alter table cars drop foreign key FK_58b169afe1104184b3b4dd65fa8
+2016-11-27 01:57:44 ERROR SchemaExport:426 - Can't DROP 'FK_58b169afe1104184b3b4dd65fa8'; check that column/key exists
+2016-11-27 01:58:21 INFO  SchemaExport:405 - HHH000230: Schema export complete
+2016-11-27 02:00:40 INFO  Version:37 - HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+2016-11-27 02:00:40 INFO  Version:41 - HHH000412: Hibernate Core {4.2.1.Final}
+2016-11-27 02:00:40 INFO  Environment:239 - HHH000206: hibernate.properties not found
+2016-11-27 02:00:40 INFO  Environment:342 - HHH000021: Bytecode provider name : javassist
+2016-11-27 02:00:41 INFO  DriverManagerConnectionProviderImpl:98 - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2016-11-27 02:00:41 INFO  DriverManagerConnectionProviderImpl:134 - HHH000115: Hibernate connection pool size: 20
+2016-11-27 02:00:41 INFO  DriverManagerConnectionProviderImpl:137 - HHH000006: Autocommit mode: true
+2016-11-27 02:00:41 INFO  DriverManagerConnectionProviderImpl:151 - HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/carsdb44]
+2016-11-27 02:00:41 INFO  DriverManagerConnectionProviderImpl:156 - HHH000046: Connection properties: {user=root, password=****, autocommit=true, release_mode=auto}
+2016-11-27 02:00:42 INFO  Dialect:128 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2016-11-27 02:00:42 INFO  TransactionFactoryInitiator:73 - HHH000268: Transaction strategy: org.hibernate.engine.transaction.internal.jdbc.JdbcTransactionFactory
+2016-11-27 02:00:42 INFO  ASTQueryTranslatorFactory:48 - HHH000397: Using ASTQueryTranslatorFactory
+2016-11-27 02:00:43 INFO  SchemaExport:343 - HHH000227: Running hbm2ddl schema export
+2016-11-27 02:00:43 ERROR SchemaExport:425 - HHH000389: Unsuccessful: alter table CAR_SERVICE drop foreign key FK_9c69f20c250244c490afe9588e4
+2016-11-27 02:00:43 ERROR SchemaExport:426 - Can't DROP 'FK_9c69f20c250244c490afe9588e4'; check that column/key exists
+2016-11-27 02:00:43 ERROR SchemaExport:425 - HHH000389: Unsuccessful: alter table CAR_SERVICE drop foreign key FK_398feac65fb141fd8ea3d75ff91
+2016-11-27 02:00:43 ERROR SchemaExport:426 - Can't DROP 'FK_398feac65fb141fd8ea3d75ff91'; check that column/key exists
+2016-11-27 02:00:43 ERROR SchemaExport:425 - HHH000389: Unsuccessful: alter table cars drop foreign key FK_546311fee3b5438baf92af02559
+2016-11-27 02:00:43 ERROR SchemaExport:426 - Can't DROP 'FK_546311fee3b5438baf92af02559'; check that column/key exists
+2016-11-27 02:00:43 ERROR SchemaExport:425 - HHH000389: Unsuccessful: alter table cars drop foreign key FK_99a7980f7d2a4ffc81e4a45e2c2
+2016-11-27 02:00:43 ERROR SchemaExport:426 - Can't DROP 'FK_99a7980f7d2a4ffc81e4a45e2c2'; check that column/key exists
+2016-11-27 02:00:52 INFO  SchemaExport:405 - HHH000230: Schema export complete
+2016-11-27 02:03:35 INFO  Version:37 - HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+2016-11-27 02:03:35 INFO  Version:41 - HHH000412: Hibernate Core {4.2.1.Final}
+2016-11-27 02:03:35 INFO  Environment:239 - HHH000206: hibernate.properties not found
+2016-11-27 02:03:35 INFO  Environment:342 - HHH000021: Bytecode provider name : javassist
+2016-11-27 02:03:36 INFO  DriverManagerConnectionProviderImpl:98 - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2016-11-27 02:03:36 INFO  DriverManagerConnectionProviderImpl:134 - HHH000115: Hibernate connection pool size: 20
+2016-11-27 02:03:36 INFO  DriverManagerConnectionProviderImpl:137 - HHH000006: Autocommit mode: true
+2016-11-27 02:03:36 INFO  DriverManagerConnectionProviderImpl:151 - HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/carsdb44]
+2016-11-27 02:03:36 INFO  DriverManagerConnectionProviderImpl:156 - HHH000046: Connection properties: {user=root, password=****, autocommit=true, release_mode=auto}
+2016-11-27 02:03:36 INFO  Dialect:128 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2016-11-27 02:03:36 INFO  TransactionFactoryInitiator:73 - HHH000268: Transaction strategy: org.hibernate.engine.transaction.internal.jdbc.JdbcTransactionFactory
+2016-11-27 02:03:36 INFO  ASTQueryTranslatorFactory:48 - HHH000397: Using ASTQueryTranslatorFactory
+2016-11-27 02:03:37 INFO  SchemaExport:343 - HHH000227: Running hbm2ddl schema export
+2016-11-27 02:03:37 ERROR SchemaExport:425 - HHH000389: Unsuccessful: alter table CAR_SERVICE drop foreign key FK_c675b86950184accacbc682f419
+2016-11-27 02:03:37 ERROR SchemaExport:426 - Can't DROP 'FK_c675b86950184accacbc682f419'; check that column/key exists
+2016-11-27 02:03:37 ERROR SchemaExport:425 - HHH000389: Unsuccessful: alter table CAR_SERVICE drop foreign key FK_3ae43c31e17442fa975f8d468b8
+2016-11-27 02:03:37 ERROR SchemaExport:426 - Can't DROP 'FK_3ae43c31e17442fa975f8d468b8'; check that column/key exists
+2016-11-27 02:03:37 ERROR SchemaExport:425 - HHH000389: Unsuccessful: alter table cars drop foreign key FK_863a67a7a0c2494288d01db29d9
+2016-11-27 02:03:37 ERROR SchemaExport:426 - Can't DROP 'FK_863a67a7a0c2494288d01db29d9'; check that column/key exists
+2016-11-27 02:03:37 ERROR SchemaExport:425 - HHH000389: Unsuccessful: alter table cars drop foreign key FK_759c7d93788141d981048763f30
+2016-11-27 02:03:37 ERROR SchemaExport:426 - Can't DROP 'FK_759c7d93788141d981048763f30'; check that column/key exists
+2016-11-27 02:03:45 INFO  SchemaExport:405 - HHH000230: Schema export complete
+2016-11-27 02:06:51 INFO  Version:37 - HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+2016-11-27 02:06:51 INFO  Version:41 - HHH000412: Hibernate Core {4.2.1.Final}
+2016-11-27 02:06:51 INFO  Environment:239 - HHH000206: hibernate.properties not found
+2016-11-27 02:06:51 INFO  Environment:342 - HHH000021: Bytecode provider name : javassist
+2016-11-27 02:06:52 INFO  DriverManagerConnectionProviderImpl:98 - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2016-11-27 02:06:52 INFO  DriverManagerConnectionProviderImpl:134 - HHH000115: Hibernate connection pool size: 20
+2016-11-27 02:06:52 INFO  DriverManagerConnectionProviderImpl:137 - HHH000006: Autocommit mode: true
+2016-11-27 02:06:52 INFO  DriverManagerConnectionProviderImpl:151 - HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/carsdb44]
+2016-11-27 02:06:52 INFO  DriverManagerConnectionProviderImpl:156 - HHH000046: Connection properties: {user=root, password=****, autocommit=true, release_mode=auto}
+2016-11-27 02:06:53 INFO  Dialect:128 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2016-11-27 02:06:53 INFO  TransactionFactoryInitiator:73 - HHH000268: Transaction strategy: org.hibernate.engine.transaction.internal.jdbc.JdbcTransactionFactory
+2016-11-27 02:06:53 INFO  ASTQueryTranslatorFactory:48 - HHH000397: Using ASTQueryTranslatorFactory
+2016-11-27 02:06:54 INFO  SchemaExport:343 - HHH000227: Running hbm2ddl schema export
+2016-11-27 02:06:54 ERROR SchemaExport:425 - HHH000389: Unsuccessful: alter table CAR_SERVICE drop foreign key FK_13d55f1be2bf41c0a36a2b1a69e
+2016-11-27 02:06:54 ERROR SchemaExport:426 - Can't DROP 'FK_13d55f1be2bf41c0a36a2b1a69e'; check that column/key exists
+2016-11-27 02:06:54 ERROR SchemaExport:425 - HHH000389: Unsuccessful: alter table CAR_SERVICE drop foreign key FK_31508677c4f04c4ba44edb20bc9
+2016-11-27 02:06:54 ERROR SchemaExport:426 - Can't DROP 'FK_31508677c4f04c4ba44edb20bc9'; check that column/key exists
+2016-11-27 02:06:54 ERROR SchemaExport:425 - HHH000389: Unsuccessful: alter table cars drop foreign key FK_49d808b4ad58485fad27ee59101
+2016-11-27 02:06:54 ERROR SchemaExport:426 - Can't DROP 'FK_49d808b4ad58485fad27ee59101'; check that column/key exists
+2016-11-27 02:06:54 ERROR SchemaExport:425 - HHH000389: Unsuccessful: alter table cars drop foreign key FK_7e73e7f387684ed892592abedc7
+2016-11-27 02:06:54 ERROR SchemaExport:426 - Can't DROP 'FK_7e73e7f387684ed892592abedc7'; check that column/key exists
+2016-11-27 02:07:03 INFO  SchemaExport:405 - HHH000230: Schema export complete
+2016-11-27 02:14:08 INFO  Version:37 - HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+2016-11-27 02:14:09 INFO  Version:41 - HHH000412: Hibernate Core {4.2.1.Final}
+2016-11-27 02:14:09 INFO  Environment:239 - HHH000206: hibernate.properties not found
+2016-11-27 02:14:09 INFO  Environment:342 - HHH000021: Bytecode provider name : javassist
+2016-11-27 02:14:12 INFO  DriverManagerConnectionProviderImpl:98 - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2016-11-27 02:14:12 INFO  DriverManagerConnectionProviderImpl:134 - HHH000115: Hibernate connection pool size: 20
+2016-11-27 02:14:12 INFO  DriverManagerConnectionProviderImpl:137 - HHH000006: Autocommit mode: true
+2016-11-27 02:14:12 INFO  DriverManagerConnectionProviderImpl:151 - HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/carsdb44]
+2016-11-27 02:14:12 INFO  DriverManagerConnectionProviderImpl:156 - HHH000046: Connection properties: {user=root, password=****, autocommit=true, release_mode=auto}
+2016-11-27 02:14:13 INFO  Dialect:128 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2016-11-27 02:14:13 INFO  TransactionFactoryInitiator:73 - HHH000268: Transaction strategy: org.hibernate.engine.transaction.internal.jdbc.JdbcTransactionFactory
+2016-11-27 02:14:13 INFO  ASTQueryTranslatorFactory:48 - HHH000397: Using ASTQueryTranslatorFactory
+2016-11-27 02:14:14 INFO  SchemaExport:343 - HHH000227: Running hbm2ddl schema export
+2016-11-27 02:14:14 ERROR SchemaExport:425 - HHH000389: Unsuccessful: alter table CAR_SERVICE drop foreign key FK_2e6f5651348e42988f68f3af89d
+2016-11-27 02:14:14 ERROR SchemaExport:426 - Can't DROP 'FK_2e6f5651348e42988f68f3af89d'; check that column/key exists
+2016-11-27 02:14:14 ERROR SchemaExport:425 - HHH000389: Unsuccessful: alter table CAR_SERVICE drop foreign key FK_a7eb171c88374c5e80c42ddc91a
+2016-11-27 02:14:14 ERROR SchemaExport:426 - Can't DROP 'FK_a7eb171c88374c5e80c42ddc91a'; check that column/key exists
+2016-11-27 02:14:14 ERROR SchemaExport:425 - HHH000389: Unsuccessful: alter table cars drop foreign key FK_07dd8a6dc6af45cd82c58d91ece
+2016-11-27 02:14:14 ERROR SchemaExport:426 - Can't DROP 'FK_07dd8a6dc6af45cd82c58d91ece'; check that column/key exists
+2016-11-27 02:14:14 ERROR SchemaExport:425 - HHH000389: Unsuccessful: alter table cars drop foreign key FK_741ba569c3614d35ac2200cc4d4
+2016-11-27 02:14:14 ERROR SchemaExport:426 - Can't DROP 'FK_741ba569c3614d35ac2200cc4d4'; check that column/key exists
+2016-11-27 02:14:26 INFO  SchemaExport:405 - HHH000230: Schema export complete
+2016-11-27 02:15:55 INFO  Version:37 - HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+2016-11-27 02:15:55 INFO  Version:41 - HHH000412: Hibernate Core {4.2.1.Final}
+2016-11-27 02:15:55 INFO  Environment:239 - HHH000206: hibernate.properties not found
+2016-11-27 02:15:55 INFO  Environment:342 - HHH000021: Bytecode provider name : javassist
+2016-11-27 02:15:56 INFO  DriverManagerConnectionProviderImpl:98 - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2016-11-27 02:15:56 INFO  DriverManagerConnectionProviderImpl:134 - HHH000115: Hibernate connection pool size: 20
+2016-11-27 02:15:56 INFO  DriverManagerConnectionProviderImpl:137 - HHH000006: Autocommit mode: true
+2016-11-27 02:15:56 INFO  DriverManagerConnectionProviderImpl:151 - HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/carsdb44]
+2016-11-27 02:15:56 INFO  DriverManagerConnectionProviderImpl:156 - HHH000046: Connection properties: {user=root, password=****, autocommit=true, release_mode=auto}
+2016-11-27 02:15:57 INFO  Dialect:128 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2016-11-27 02:15:57 INFO  TransactionFactoryInitiator:73 - HHH000268: Transaction strategy: org.hibernate.engine.transaction.internal.jdbc.JdbcTransactionFactory
+2016-11-27 02:15:57 INFO  ASTQueryTranslatorFactory:48 - HHH000397: Using ASTQueryTranslatorFactory
+2016-11-27 02:15:58 INFO  SchemaExport:343 - HHH000227: Running hbm2ddl schema export
+2016-11-27 02:15:58 ERROR SchemaExport:425 - HHH000389: Unsuccessful: alter table CAR_SERVICE drop foreign key FK_0532c5cc12a0431e9166f24e7d7
+2016-11-27 02:15:58 ERROR SchemaExport:426 - Can't DROP 'FK_0532c5cc12a0431e9166f24e7d7'; check that column/key exists
+2016-11-27 02:15:58 ERROR SchemaExport:425 - HHH000389: Unsuccessful: alter table CAR_SERVICE drop foreign key FK_04d9ffcbc856459da1c9ebc82bc
+2016-11-27 02:15:58 ERROR SchemaExport:426 - Can't DROP 'FK_04d9ffcbc856459da1c9ebc82bc'; check that column/key exists
+2016-11-27 02:15:58 ERROR SchemaExport:425 - HHH000389: Unsuccessful: alter table cars drop foreign key FK_7c251ac17c904b3aacd40665a38
+2016-11-27 02:15:58 ERROR SchemaExport:426 - Can't DROP 'FK_7c251ac17c904b3aacd40665a38'; check that column/key exists
+2016-11-27 02:15:58 ERROR SchemaExport:425 - HHH000389: Unsuccessful: alter table cars drop foreign key FK_468fb7b2c2c84963858cc7a2d9f
+2016-11-27 02:15:58 ERROR SchemaExport:426 - Can't DROP 'FK_468fb7b2c2c84963858cc7a2d9f'; check that column/key exists
+2016-11-27 02:16:06 INFO  SchemaExport:405 - HHH000230: Schema export complete
+2016-11-27 02:21:44 INFO  Version:37 - HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+2016-11-27 02:21:44 INFO  Version:41 - HHH000412: Hibernate Core {4.2.1.Final}
+2016-11-27 02:21:44 INFO  Environment:239 - HHH000206: hibernate.properties not found
+2016-11-27 02:21:44 INFO  Environment:342 - HHH000021: Bytecode provider name : javassist
+2016-11-27 02:21:45 INFO  DriverManagerConnectionProviderImpl:98 - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2016-11-27 02:21:45 INFO  DriverManagerConnectionProviderImpl:134 - HHH000115: Hibernate connection pool size: 20
+2016-11-27 02:21:45 INFO  DriverManagerConnectionProviderImpl:137 - HHH000006: Autocommit mode: true
+2016-11-27 02:21:45 INFO  DriverManagerConnectionProviderImpl:151 - HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/carsdb44]
+2016-11-27 02:21:45 INFO  DriverManagerConnectionProviderImpl:156 - HHH000046: Connection properties: {user=root, password=****, autocommit=true, release_mode=auto}
+2016-11-27 02:21:45 INFO  Dialect:128 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2016-11-27 02:21:45 INFO  TransactionFactoryInitiator:73 - HHH000268: Transaction strategy: org.hibernate.engine.transaction.internal.jdbc.JdbcTransactionFactory
+2016-11-27 02:21:45 INFO  ASTQueryTranslatorFactory:48 - HHH000397: Using ASTQueryTranslatorFactory
+2016-11-27 02:21:46 INFO  SchemaExport:343 - HHH000227: Running hbm2ddl schema export
+2016-11-27 02:21:46 ERROR SchemaExport:425 - HHH000389: Unsuccessful: alter table CAR_SERVICE drop foreign key FK_64c6cecf906d4ba0a1bacf93ea2
+2016-11-27 02:21:46 ERROR SchemaExport:426 - Can't DROP 'FK_64c6cecf906d4ba0a1bacf93ea2'; check that column/key exists
+2016-11-27 02:21:46 ERROR SchemaExport:425 - HHH000389: Unsuccessful: alter table CAR_SERVICE drop foreign key FK_05ba409d50a94eafbfeaee337d2
+2016-11-27 02:21:46 ERROR SchemaExport:426 - Can't DROP 'FK_05ba409d50a94eafbfeaee337d2'; check that column/key exists
+2016-11-27 02:21:46 ERROR SchemaExport:425 - HHH000389: Unsuccessful: alter table cars drop foreign key FK_63fc646aaf9b4e47ab5e741407c
+2016-11-27 02:21:46 ERROR SchemaExport:426 - Can't DROP 'FK_63fc646aaf9b4e47ab5e741407c'; check that column/key exists
+2016-11-27 02:21:46 ERROR SchemaExport:425 - HHH000389: Unsuccessful: alter table cars drop foreign key FK_42016c71a56043ba97aaee8f98c
+2016-11-27 02:21:46 ERROR SchemaExport:426 - Can't DROP 'FK_42016c71a56043ba97aaee8f98c'; check that column/key exists
+2016-11-27 02:21:53 INFO  SchemaExport:405 - HHH000230: Schema export complete
+2016-11-27 02:24:42 INFO  Version:37 - HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+2016-11-27 02:24:42 INFO  Version:41 - HHH000412: Hibernate Core {4.2.1.Final}
+2016-11-27 02:24:42 INFO  Environment:239 - HHH000206: hibernate.properties not found
+2016-11-27 02:24:42 INFO  Environment:342 - HHH000021: Bytecode provider name : javassist
+2016-11-27 02:24:43 INFO  DriverManagerConnectionProviderImpl:98 - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2016-11-27 02:24:43 INFO  DriverManagerConnectionProviderImpl:134 - HHH000115: Hibernate connection pool size: 20
+2016-11-27 02:24:43 INFO  DriverManagerConnectionProviderImpl:137 - HHH000006: Autocommit mode: true
+2016-11-27 02:24:43 INFO  DriverManagerConnectionProviderImpl:151 - HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/carsdb44]
+2016-11-27 02:24:43 INFO  DriverManagerConnectionProviderImpl:156 - HHH000046: Connection properties: {user=root, password=****, autocommit=true, release_mode=auto}
+2016-11-27 02:24:44 INFO  Dialect:128 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2016-11-27 02:24:44 INFO  TransactionFactoryInitiator:73 - HHH000268: Transaction strategy: org.hibernate.engine.transaction.internal.jdbc.JdbcTransactionFactory
+2016-11-27 02:24:44 INFO  ASTQueryTranslatorFactory:48 - HHH000397: Using ASTQueryTranslatorFactory
+2016-11-27 02:24:45 INFO  SchemaExport:343 - HHH000227: Running hbm2ddl schema export
+2016-11-27 02:24:45 ERROR SchemaExport:425 - HHH000389: Unsuccessful: alter table CAR_SERVICE drop foreign key FK_2991cdd8cccb47a9bda77415955
+2016-11-27 02:24:45 ERROR SchemaExport:426 - Can't DROP 'FK_2991cdd8cccb47a9bda77415955'; check that column/key exists
+2016-11-27 02:24:45 ERROR SchemaExport:425 - HHH000389: Unsuccessful: alter table CAR_SERVICE drop foreign key FK_62957c90b38c48e2bad64b61d4f
+2016-11-27 02:24:45 ERROR SchemaExport:426 - Can't DROP 'FK_62957c90b38c48e2bad64b61d4f'; check that column/key exists
+2016-11-27 02:24:45 ERROR SchemaExport:425 - HHH000389: Unsuccessful: alter table cars drop foreign key FK_4c84aa2c0e1e4ff4b8fdc9b07e5
+2016-11-27 02:24:45 ERROR SchemaExport:426 - Can't DROP 'FK_4c84aa2c0e1e4ff4b8fdc9b07e5'; check that column/key exists
+2016-11-27 02:24:45 ERROR SchemaExport:425 - HHH000389: Unsuccessful: alter table cars drop foreign key FK_19c1727c1ed04ba38e3730f6bbb
+2016-11-27 02:24:45 ERROR SchemaExport:426 - Can't DROP 'FK_19c1727c1ed04ba38e3730f6bbb'; check that column/key exists
+2016-11-27 02:24:57 INFO  SchemaExport:405 - HHH000230: Schema export complete
+2016-11-27 02:28:29 INFO  Version:37 - HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+2016-11-27 02:28:29 INFO  Version:41 - HHH000412: Hibernate Core {4.2.1.Final}
+2016-11-27 02:28:29 INFO  Environment:239 - HHH000206: hibernate.properties not found
+2016-11-27 02:28:29 INFO  Environment:342 - HHH000021: Bytecode provider name : javassist
+2016-11-27 02:28:30 INFO  DriverManagerConnectionProviderImpl:98 - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2016-11-27 02:28:30 INFO  DriverManagerConnectionProviderImpl:134 - HHH000115: Hibernate connection pool size: 20
+2016-11-27 02:28:30 INFO  DriverManagerConnectionProviderImpl:137 - HHH000006: Autocommit mode: true
+2016-11-27 02:28:30 INFO  DriverManagerConnectionProviderImpl:151 - HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/carsdb44]
+2016-11-27 02:28:30 INFO  DriverManagerConnectionProviderImpl:156 - HHH000046: Connection properties: {user=root, password=****, autocommit=true, release_mode=auto}
+2016-11-27 02:28:31 INFO  Dialect:128 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2016-11-27 02:28:31 INFO  TransactionFactoryInitiator:73 - HHH000268: Transaction strategy: org.hibernate.engine.transaction.internal.jdbc.JdbcTransactionFactory
+2016-11-27 02:28:31 INFO  ASTQueryTranslatorFactory:48 - HHH000397: Using ASTQueryTranslatorFactory
+2016-11-27 02:28:32 INFO  SchemaExport:343 - HHH000227: Running hbm2ddl schema export
+2016-11-27 02:28:32 ERROR SchemaExport:425 - HHH000389: Unsuccessful: alter table CAR_SERVICE drop foreign key FK_04602c46a9184a0eb55eb6f507d
+2016-11-27 02:28:32 ERROR SchemaExport:426 - Can't DROP 'FK_04602c46a9184a0eb55eb6f507d'; check that column/key exists
+2016-11-27 02:28:32 ERROR SchemaExport:425 - HHH000389: Unsuccessful: alter table CAR_SERVICE drop foreign key FK_67ce3fa6c8d44e508423c846b6e
+2016-11-27 02:28:32 ERROR SchemaExport:426 - Can't DROP 'FK_67ce3fa6c8d44e508423c846b6e'; check that column/key exists
+2016-11-27 02:28:32 ERROR SchemaExport:425 - HHH000389: Unsuccessful: alter table cars drop foreign key FK_b5eaede8d5974383a71c79cd4dd
+2016-11-27 02:28:32 ERROR SchemaExport:426 - Can't DROP 'FK_b5eaede8d5974383a71c79cd4dd'; check that column/key exists
+2016-11-27 02:28:33 ERROR SchemaExport:425 - HHH000389: Unsuccessful: alter table cars drop foreign key FK_3852bcf086774a37ae123105874
+2016-11-27 02:28:33 ERROR SchemaExport:426 - Can't DROP 'FK_3852bcf086774a37ae123105874'; check that column/key exists
+2016-11-27 02:28:44 INFO  SchemaExport:405 - HHH000230: Schema export complete
+2016-11-27 02:33:17 INFO  Version:37 - HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+2016-11-27 02:33:17 INFO  Version:41 - HHH000412: Hibernate Core {4.2.1.Final}
+2016-11-27 02:33:17 INFO  Environment:239 - HHH000206: hibernate.properties not found
+2016-11-27 02:33:17 INFO  Environment:342 - HHH000021: Bytecode provider name : javassist
+2016-11-27 02:33:18 INFO  DriverManagerConnectionProviderImpl:98 - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2016-11-27 02:33:18 INFO  DriverManagerConnectionProviderImpl:134 - HHH000115: Hibernate connection pool size: 20
+2016-11-27 02:33:18 INFO  DriverManagerConnectionProviderImpl:137 - HHH000006: Autocommit mode: true
+2016-11-27 02:33:18 INFO  DriverManagerConnectionProviderImpl:151 - HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/carsdb44]
+2016-11-27 02:33:18 INFO  DriverManagerConnectionProviderImpl:156 - HHH000046: Connection properties: {user=root, password=****, autocommit=true, release_mode=auto}
+2016-11-27 02:33:19 INFO  Dialect:128 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2016-11-27 02:33:19 INFO  TransactionFactoryInitiator:73 - HHH000268: Transaction strategy: org.hibernate.engine.transaction.internal.jdbc.JdbcTransactionFactory
+2016-11-27 02:33:19 INFO  ASTQueryTranslatorFactory:48 - HHH000397: Using ASTQueryTranslatorFactory
+2016-11-27 02:33:20 INFO  SchemaExport:343 - HHH000227: Running hbm2ddl schema export
+2016-11-27 02:33:20 ERROR SchemaExport:425 - HHH000389: Unsuccessful: alter table CAR_SERVICE drop foreign key FK_d0e4f4e3437446ac850e36640e7
+2016-11-27 02:33:20 ERROR SchemaExport:426 - Can't DROP 'FK_d0e4f4e3437446ac850e36640e7'; check that column/key exists
+2016-11-27 02:33:20 ERROR SchemaExport:425 - HHH000389: Unsuccessful: alter table CAR_SERVICE drop foreign key FK_3b1eff6c29fb4a0f89cd42f644c
+2016-11-27 02:33:20 ERROR SchemaExport:426 - Can't DROP 'FK_3b1eff6c29fb4a0f89cd42f644c'; check that column/key exists
+2016-11-27 02:33:20 ERROR SchemaExport:425 - HHH000389: Unsuccessful: alter table cars drop foreign key FK_7baaf55984884e4fb6dcf6ebba8
+2016-11-27 02:33:20 ERROR SchemaExport:426 - Can't DROP 'FK_7baaf55984884e4fb6dcf6ebba8'; check that column/key exists
+2016-11-27 02:33:20 ERROR SchemaExport:425 - HHH000389: Unsuccessful: alter table cars drop foreign key FK_dcc3100a158f4172afc761790cf
+2016-11-27 02:33:20 ERROR SchemaExport:426 - Can't DROP 'FK_dcc3100a158f4172afc761790cf'; check that column/key exists
+2016-11-27 02:33:33 INFO  SchemaExport:405 - HHH000230: Schema export complete
+2016-11-27 02:34:38 INFO  Version:37 - HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+2016-11-27 02:34:38 INFO  Version:41 - HHH000412: Hibernate Core {4.2.1.Final}
+2016-11-27 02:34:38 INFO  Environment:239 - HHH000206: hibernate.properties not found
+2016-11-27 02:34:38 INFO  Environment:342 - HHH000021: Bytecode provider name : javassist
+2016-11-27 02:34:39 INFO  DriverManagerConnectionProviderImpl:98 - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2016-11-27 02:34:39 INFO  DriverManagerConnectionProviderImpl:134 - HHH000115: Hibernate connection pool size: 20
+2016-11-27 02:34:39 INFO  DriverManagerConnectionProviderImpl:137 - HHH000006: Autocommit mode: true
+2016-11-27 02:34:39 INFO  DriverManagerConnectionProviderImpl:151 - HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/carsdb44]
+2016-11-27 02:34:39 INFO  DriverManagerConnectionProviderImpl:156 - HHH000046: Connection properties: {user=root, password=****, autocommit=true, release_mode=auto}
+2016-11-27 02:34:40 INFO  Dialect:128 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2016-11-27 02:34:40 INFO  TransactionFactoryInitiator:73 - HHH000268: Transaction strategy: org.hibernate.engine.transaction.internal.jdbc.JdbcTransactionFactory
+2016-11-27 02:34:40 INFO  ASTQueryTranslatorFactory:48 - HHH000397: Using ASTQueryTranslatorFactory
+2016-11-27 02:34:41 INFO  SchemaExport:343 - HHH000227: Running hbm2ddl schema export
+2016-11-27 02:34:41 ERROR SchemaExport:425 - HHH000389: Unsuccessful: alter table CAR_SERVICE drop foreign key FK_d95f76c14f804d58b66c7383833
+2016-11-27 02:34:41 ERROR SchemaExport:426 - Can't DROP 'FK_d95f76c14f804d58b66c7383833'; check that column/key exists
+2016-11-27 02:34:41 ERROR SchemaExport:425 - HHH000389: Unsuccessful: alter table CAR_SERVICE drop foreign key FK_60584a37455e47339f62d20db68
+2016-11-27 02:34:41 ERROR SchemaExport:426 - Can't DROP 'FK_60584a37455e47339f62d20db68'; check that column/key exists
+2016-11-27 02:34:41 ERROR SchemaExport:425 - HHH000389: Unsuccessful: alter table cars drop foreign key FK_6fe7dcfa27194499a658eda2689
+2016-11-27 02:34:41 ERROR SchemaExport:426 - Can't DROP 'FK_6fe7dcfa27194499a658eda2689'; check that column/key exists
+2016-11-27 02:34:41 ERROR SchemaExport:425 - HHH000389: Unsuccessful: alter table cars drop foreign key FK_3aa83ea70d0e462eb344d899712
+2016-11-27 02:34:41 ERROR SchemaExport:426 - Can't DROP 'FK_3aa83ea70d0e462eb344d899712'; check that column/key exists
+2016-11-27 02:34:47 INFO  SchemaExport:405 - HHH000230: Schema export complete
+2016-11-27 02:35:23 INFO  Version:37 - HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+2016-11-27 02:35:23 INFO  Version:41 - HHH000412: Hibernate Core {4.2.1.Final}
+2016-11-27 02:35:23 INFO  Environment:239 - HHH000206: hibernate.properties not found
+2016-11-27 02:35:23 INFO  Environment:342 - HHH000021: Bytecode provider name : javassist
+2016-11-27 02:35:25 INFO  DriverManagerConnectionProviderImpl:98 - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2016-11-27 02:35:25 INFO  DriverManagerConnectionProviderImpl:134 - HHH000115: Hibernate connection pool size: 20
+2016-11-27 02:35:25 INFO  DriverManagerConnectionProviderImpl:137 - HHH000006: Autocommit mode: true
+2016-11-27 02:35:25 INFO  DriverManagerConnectionProviderImpl:151 - HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/carsdb44]
+2016-11-27 02:35:25 INFO  DriverManagerConnectionProviderImpl:156 - HHH000046: Connection properties: {user=root, password=****, autocommit=true, release_mode=auto}
+2016-11-27 02:35:27 INFO  Dialect:128 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2016-11-27 02:35:27 INFO  TransactionFactoryInitiator:73 - HHH000268: Transaction strategy: org.hibernate.engine.transaction.internal.jdbc.JdbcTransactionFactory
+2016-11-27 02:35:27 INFO  ASTQueryTranslatorFactory:48 - HHH000397: Using ASTQueryTranslatorFactory
+2016-11-27 02:35:29 INFO  SchemaExport:343 - HHH000227: Running hbm2ddl schema export
+2016-11-27 02:35:29 ERROR SchemaExport:425 - HHH000389: Unsuccessful: alter table CAR_SERVICE drop foreign key FK_52241c86cfa34a69a0d5035a0cd
+2016-11-27 02:35:29 ERROR SchemaExport:426 - Can't DROP 'FK_52241c86cfa34a69a0d5035a0cd'; check that column/key exists
+2016-11-27 02:35:29 ERROR SchemaExport:425 - HHH000389: Unsuccessful: alter table CAR_SERVICE drop foreign key FK_22ca7f043a6a413aa6c3902cd26
+2016-11-27 02:35:29 ERROR SchemaExport:426 - Can't DROP 'FK_22ca7f043a6a413aa6c3902cd26'; check that column/key exists
+2016-11-27 02:35:29 ERROR SchemaExport:425 - HHH000389: Unsuccessful: alter table cars drop foreign key FK_8fdc52d96a3e4f7f94cfe104e01
+2016-11-27 02:35:29 ERROR SchemaExport:426 - Can't DROP 'FK_8fdc52d96a3e4f7f94cfe104e01'; check that column/key exists
+2016-11-27 02:35:29 ERROR SchemaExport:425 - HHH000389: Unsuccessful: alter table cars drop foreign key FK_4ae462adc46943afb47605fbdd6
+2016-11-27 02:35:29 ERROR SchemaExport:426 - Can't DROP 'FK_4ae462adc46943afb47605fbdd6'; check that column/key exists
+2016-11-27 02:35:37 INFO  SchemaExport:405 - HHH000230: Schema export complete
+2016-11-27 14:54:43 INFO  Version:37 - HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+2016-11-27 14:54:43 INFO  Version:41 - HHH000412: Hibernate Core {4.2.1.Final}
+2016-11-27 14:54:43 INFO  Environment:239 - HHH000206: hibernate.properties not found
+2016-11-27 14:54:43 INFO  Environment:342 - HHH000021: Bytecode provider name : javassist
+2016-11-27 14:54:44 INFO  DriverManagerConnectionProviderImpl:98 - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2016-11-27 14:54:44 INFO  DriverManagerConnectionProviderImpl:134 - HHH000115: Hibernate connection pool size: 20
+2016-11-27 14:54:44 INFO  DriverManagerConnectionProviderImpl:137 - HHH000006: Autocommit mode: true
+2016-11-27 14:54:44 INFO  DriverManagerConnectionProviderImpl:151 - HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/carsdb44]
+2016-11-27 14:54:44 INFO  DriverManagerConnectionProviderImpl:156 - HHH000046: Connection properties: {user=root, password=****, autocommit=true, release_mode=auto}
+2016-11-27 14:54:45 INFO  Dialect:128 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2016-11-27 14:54:45 INFO  TransactionFactoryInitiator:73 - HHH000268: Transaction strategy: org.hibernate.engine.transaction.internal.jdbc.JdbcTransactionFactory
+2016-11-27 14:54:45 INFO  ASTQueryTranslatorFactory:48 - HHH000397: Using ASTQueryTranslatorFactory
+2016-11-27 14:54:49 INFO  SchemaExport:343 - HHH000227: Running hbm2ddl schema export
+2016-11-27 14:54:51 ERROR SchemaExport:425 - HHH000389: Unsuccessful: alter table CAR_SERVICE drop foreign key FK_ef14205375174ff38b95baec7e0
+2016-11-27 14:54:51 ERROR SchemaExport:426 - Can't DROP 'FK_ef14205375174ff38b95baec7e0'; check that column/key exists
+2016-11-27 14:54:51 ERROR SchemaExport:425 - HHH000389: Unsuccessful: alter table CAR_SERVICE drop foreign key FK_0fc34b6b687c4deba039a13d8d3
+2016-11-27 14:54:51 ERROR SchemaExport:426 - Can't DROP 'FK_0fc34b6b687c4deba039a13d8d3'; check that column/key exists
+2016-11-27 14:54:52 ERROR SchemaExport:425 - HHH000389: Unsuccessful: alter table cars drop foreign key FK_fe0415e1e0e34436a6659dcf170
+2016-11-27 14:54:52 ERROR SchemaExport:426 - Can't DROP 'FK_fe0415e1e0e34436a6659dcf170'; check that column/key exists
+2016-11-27 14:54:52 ERROR SchemaExport:425 - HHH000389: Unsuccessful: alter table cars drop foreign key FK_9ec16795f2774542b1446bd2b9a
+2016-11-27 14:54:52 ERROR SchemaExport:426 - Can't DROP 'FK_9ec16795f2774542b1446bd2b9a'; check that column/key exists
+2016-11-27 14:55:13 INFO  SchemaExport:405 - HHH000230: Schema export complete
+2016-11-27 15:35:23 INFO  Version:37 - HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+2016-11-27 15:35:23 INFO  Version:41 - HHH000412: Hibernate Core {4.2.1.Final}
+2016-11-27 15:35:23 INFO  Environment:239 - HHH000206: hibernate.properties not found
+2016-11-27 15:35:23 INFO  Environment:342 - HHH000021: Bytecode provider name : javassist
+2016-11-27 15:35:24 INFO  DriverManagerConnectionProviderImpl:98 - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2016-11-27 15:35:24 INFO  DriverManagerConnectionProviderImpl:134 - HHH000115: Hibernate connection pool size: 20
+2016-11-27 15:35:24 INFO  DriverManagerConnectionProviderImpl:137 - HHH000006: Autocommit mode: true
+2016-11-27 15:35:24 INFO  DriverManagerConnectionProviderImpl:151 - HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/carsdb44]
+2016-11-27 15:35:24 INFO  DriverManagerConnectionProviderImpl:156 - HHH000046: Connection properties: {user=root, password=****, autocommit=true, release_mode=auto}
+2016-11-27 15:35:24 INFO  Dialect:128 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2016-11-27 15:35:24 INFO  TransactionFactoryInitiator:73 - HHH000268: Transaction strategy: org.hibernate.engine.transaction.internal.jdbc.JdbcTransactionFactory
+2016-11-27 15:35:24 INFO  ASTQueryTranslatorFactory:48 - HHH000397: Using ASTQueryTranslatorFactory
+2016-11-27 15:35:25 INFO  SchemaExport:343 - HHH000227: Running hbm2ddl schema export
+2016-11-27 15:35:25 ERROR SchemaExport:425 - HHH000389: Unsuccessful: alter table CAR_SERVICE drop foreign key FK_5e651b951f5e43baa9b6c407505
+2016-11-27 15:35:25 ERROR SchemaExport:426 - Can't DROP 'FK_5e651b951f5e43baa9b6c407505'; check that column/key exists
+2016-11-27 15:35:25 ERROR SchemaExport:425 - HHH000389: Unsuccessful: alter table CAR_SERVICE drop foreign key FK_381da9fdf1104807950131355e7
+2016-11-27 15:35:25 ERROR SchemaExport:426 - Can't DROP 'FK_381da9fdf1104807950131355e7'; check that column/key exists
+2016-11-27 15:35:25 ERROR SchemaExport:425 - HHH000389: Unsuccessful: alter table cars drop foreign key FK_cfea1651eb38441f88e46a94ef2
+2016-11-27 15:35:25 ERROR SchemaExport:426 - Can't DROP 'FK_cfea1651eb38441f88e46a94ef2'; check that column/key exists
+2016-11-27 15:35:25 ERROR SchemaExport:425 - HHH000389: Unsuccessful: alter table cars drop foreign key FK_fd8027eecfb1488f96d910a9967
+2016-11-27 15:35:25 ERROR SchemaExport:426 - Can't DROP 'FK_fd8027eecfb1488f96d910a9967'; check that column/key exists
+2016-11-27 15:35:33 INFO  SchemaExport:405 - HHH000230: Schema export complete
+2016-11-27 15:49:54 INFO  Version:37 - HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+2016-11-27 15:49:54 INFO  Version:41 - HHH000412: Hibernate Core {4.2.1.Final}
+2016-11-27 15:49:54 INFO  Environment:239 - HHH000206: hibernate.properties not found
+2016-11-27 15:49:54 INFO  Environment:342 - HHH000021: Bytecode provider name : javassist
+2016-11-27 15:49:56 INFO  DriverManagerConnectionProviderImpl:98 - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2016-11-27 15:49:56 INFO  DriverManagerConnectionProviderImpl:134 - HHH000115: Hibernate connection pool size: 20
+2016-11-27 15:49:56 INFO  DriverManagerConnectionProviderImpl:137 - HHH000006: Autocommit mode: true
+2016-11-27 15:49:56 INFO  DriverManagerConnectionProviderImpl:151 - HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/carsdb44]
+2016-11-27 15:49:56 INFO  DriverManagerConnectionProviderImpl:156 - HHH000046: Connection properties: {user=root, password=****, autocommit=true, release_mode=auto}
+2016-11-27 15:49:56 INFO  Dialect:128 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2016-11-27 15:49:56 INFO  TransactionFactoryInitiator:73 - HHH000268: Transaction strategy: org.hibernate.engine.transaction.internal.jdbc.JdbcTransactionFactory
+2016-11-27 15:49:56 INFO  ASTQueryTranslatorFactory:48 - HHH000397: Using ASTQueryTranslatorFactory
+2016-11-27 15:49:57 INFO  SchemaExport:343 - HHH000227: Running hbm2ddl schema export
+2016-11-27 15:49:57 ERROR SchemaExport:425 - HHH000389: Unsuccessful: alter table CAR_SERVICE drop foreign key FK_0e2b92c5220f47f08e38df3dae5
+2016-11-27 15:49:57 ERROR SchemaExport:426 - Can't DROP 'FK_0e2b92c5220f47f08e38df3dae5'; check that column/key exists
+2016-11-27 15:49:57 ERROR SchemaExport:425 - HHH000389: Unsuccessful: alter table CAR_SERVICE drop foreign key FK_00c99f806d0a4d52a16bf3d8504
+2016-11-27 15:49:57 ERROR SchemaExport:426 - Can't DROP 'FK_00c99f806d0a4d52a16bf3d8504'; check that column/key exists
+2016-11-27 15:49:57 ERROR SchemaExport:425 - HHH000389: Unsuccessful: alter table cars drop foreign key FK_a31e8e858dd64de2baaa174d688
+2016-11-27 15:49:57 ERROR SchemaExport:426 - Can't DROP 'FK_a31e8e858dd64de2baaa174d688'; check that column/key exists
+2016-11-27 15:49:57 ERROR SchemaExport:425 - HHH000389: Unsuccessful: alter table cars drop foreign key FK_fc0bf2fdc2f640b6aaafd97d0f9
+2016-11-27 15:49:57 ERROR SchemaExport:426 - Can't DROP 'FK_fc0bf2fdc2f640b6aaafd97d0f9'; check that column/key exists
+2016-11-27 15:50:06 INFO  SchemaExport:405 - HHH000230: Schema export complete
+2016-11-27 15:52:57 INFO  Version:37 - HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+2016-11-27 15:52:57 INFO  Version:41 - HHH000412: Hibernate Core {4.2.1.Final}
+2016-11-27 15:52:57 INFO  Environment:239 - HHH000206: hibernate.properties not found
+2016-11-27 15:52:57 INFO  Environment:342 - HHH000021: Bytecode provider name : javassist
+2016-11-27 15:52:57 INFO  DriverManagerConnectionProviderImpl:98 - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2016-11-27 15:52:57 INFO  DriverManagerConnectionProviderImpl:134 - HHH000115: Hibernate connection pool size: 20
+2016-11-27 15:52:57 INFO  DriverManagerConnectionProviderImpl:137 - HHH000006: Autocommit mode: true
+2016-11-27 15:52:57 INFO  DriverManagerConnectionProviderImpl:151 - HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/carsdb44]
+2016-11-27 15:52:57 INFO  DriverManagerConnectionProviderImpl:156 - HHH000046: Connection properties: {user=root, password=****, autocommit=true, release_mode=auto}
+2016-11-27 15:52:58 INFO  Dialect:128 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2016-11-27 15:52:58 INFO  TransactionFactoryInitiator:73 - HHH000268: Transaction strategy: org.hibernate.engine.transaction.internal.jdbc.JdbcTransactionFactory
+2016-11-27 15:52:58 INFO  ASTQueryTranslatorFactory:48 - HHH000397: Using ASTQueryTranslatorFactory
+2016-11-27 15:52:59 INFO  SchemaExport:343 - HHH000227: Running hbm2ddl schema export
+2016-11-27 15:52:59 ERROR SchemaExport:425 - HHH000389: Unsuccessful: alter table CAR_SERVICE drop foreign key FK_8682d2be3a1c4976af8f8197371
+2016-11-27 15:52:59 ERROR SchemaExport:426 - Can't DROP 'FK_8682d2be3a1c4976af8f8197371'; check that column/key exists
+2016-11-27 15:52:59 ERROR SchemaExport:425 - HHH000389: Unsuccessful: alter table CAR_SERVICE drop foreign key FK_e66e14e07ecc4af39083ac5d4fb
+2016-11-27 15:52:59 ERROR SchemaExport:426 - Can't DROP 'FK_e66e14e07ecc4af39083ac5d4fb'; check that column/key exists
+2016-11-27 15:52:59 ERROR SchemaExport:425 - HHH000389: Unsuccessful: alter table cars drop foreign key FK_4aaac3e608a14e6e8787562cc0b
+2016-11-27 15:52:59 ERROR SchemaExport:426 - Can't DROP 'FK_4aaac3e608a14e6e8787562cc0b'; check that column/key exists
+2016-11-27 15:52:59 ERROR SchemaExport:425 - HHH000389: Unsuccessful: alter table cars drop foreign key FK_3e144bbfeb5647fdbb33f33b03c
+2016-11-27 15:52:59 ERROR SchemaExport:426 - Can't DROP 'FK_3e144bbfeb5647fdbb33f33b03c'; check that column/key exists
+2016-11-27 15:53:05 INFO  SchemaExport:405 - HHH000230: Schema export complete
+2016-11-27 15:54:35 INFO  Version:37 - HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+2016-11-27 15:54:35 INFO  Version:41 - HHH000412: Hibernate Core {4.2.1.Final}
+2016-11-27 15:54:35 INFO  Environment:239 - HHH000206: hibernate.properties not found
+2016-11-27 15:54:35 INFO  Environment:342 - HHH000021: Bytecode provider name : javassist
+2016-11-27 15:54:35 INFO  DriverManagerConnectionProviderImpl:98 - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2016-11-27 15:54:35 INFO  DriverManagerConnectionProviderImpl:134 - HHH000115: Hibernate connection pool size: 20
+2016-11-27 15:54:35 INFO  DriverManagerConnectionProviderImpl:137 - HHH000006: Autocommit mode: true
+2016-11-27 15:54:35 INFO  DriverManagerConnectionProviderImpl:151 - HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/carsdb44]
+2016-11-27 15:54:35 INFO  DriverManagerConnectionProviderImpl:156 - HHH000046: Connection properties: {user=root, password=****, autocommit=true, release_mode=auto}
+2016-11-27 15:54:36 INFO  Dialect:128 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2016-11-27 15:54:36 INFO  TransactionFactoryInitiator:73 - HHH000268: Transaction strategy: org.hibernate.engine.transaction.internal.jdbc.JdbcTransactionFactory
+2016-11-27 15:54:36 INFO  ASTQueryTranslatorFactory:48 - HHH000397: Using ASTQueryTranslatorFactory
+2016-11-27 15:54:36 INFO  SchemaExport:343 - HHH000227: Running hbm2ddl schema export
+2016-11-27 15:54:37 ERROR SchemaExport:425 - HHH000389: Unsuccessful: alter table CAR_SERVICE drop foreign key FK_036947b320f34c418616127eaba
+2016-11-27 15:54:37 ERROR SchemaExport:426 - Can't DROP 'FK_036947b320f34c418616127eaba'; check that column/key exists
+2016-11-27 15:54:37 ERROR SchemaExport:425 - HHH000389: Unsuccessful: alter table CAR_SERVICE drop foreign key FK_e2de0a8c34004b5b91201dbfe7e
+2016-11-27 15:54:37 ERROR SchemaExport:426 - Can't DROP 'FK_e2de0a8c34004b5b91201dbfe7e'; check that column/key exists
+2016-11-27 15:54:37 ERROR SchemaExport:425 - HHH000389: Unsuccessful: alter table cars drop foreign key FK_d7082177c1a4405f8e8e0509184
+2016-11-27 15:54:37 ERROR SchemaExport:426 - Can't DROP 'FK_d7082177c1a4405f8e8e0509184'; check that column/key exists
+2016-11-27 15:54:37 ERROR SchemaExport:425 - HHH000389: Unsuccessful: alter table cars drop foreign key FK_74136b9d91c6484998a4f886bef
+2016-11-27 15:54:37 ERROR SchemaExport:426 - Can't DROP 'FK_74136b9d91c6484998a4f886bef'; check that column/key exists
+2016-11-27 15:54:44 INFO  SchemaExport:405 - HHH000230: Schema export complete
+2016-11-27 15:55:13 INFO  ServiceController:49 - New service was added successfully!
+2016-11-27 15:55:16 INFO  ServiceController:49 - New service was added successfully!
+2016-11-27 15:56:22 INFO  CarController:85 - New registration was added successfully!
+2016-11-27 15:56:22 INFO  CarController:87 - New car was added successfully!
+2016-11-27 15:56:54 INFO  CarController:96 - Car was updated successfully!
+2016-11-27 15:57:04 INFO  CarController:101 - Car was deleted successfully!
+2016-11-27 15:58:02 INFO  Version:37 - HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+2016-11-27 15:58:02 INFO  Version:41 - HHH000412: Hibernate Core {4.2.1.Final}
+2016-11-27 15:58:02 INFO  Environment:239 - HHH000206: hibernate.properties not found
+2016-11-27 15:58:02 INFO  Environment:342 - HHH000021: Bytecode provider name : javassist
+2016-11-27 15:58:04 INFO  DriverManagerConnectionProviderImpl:98 - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2016-11-27 15:58:04 INFO  DriverManagerConnectionProviderImpl:134 - HHH000115: Hibernate connection pool size: 20
+2016-11-27 15:58:04 INFO  DriverManagerConnectionProviderImpl:137 - HHH000006: Autocommit mode: true
+2016-11-27 15:58:04 INFO  DriverManagerConnectionProviderImpl:151 - HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/carsdb44]
+2016-11-27 15:58:04 INFO  DriverManagerConnectionProviderImpl:156 - HHH000046: Connection properties: {user=root, password=****, autocommit=true, release_mode=auto}
+2016-11-27 15:58:05 INFO  Dialect:128 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2016-11-27 15:58:05 INFO  TransactionFactoryInitiator:73 - HHH000268: Transaction strategy: org.hibernate.engine.transaction.internal.jdbc.JdbcTransactionFactory
+2016-11-27 15:58:05 INFO  ASTQueryTranslatorFactory:48 - HHH000397: Using ASTQueryTranslatorFactory
+2016-11-27 15:58:06 INFO  SchemaExport:343 - HHH000227: Running hbm2ddl schema export
+2016-11-27 15:58:06 ERROR SchemaExport:425 - HHH000389: Unsuccessful: alter table CAR_SERVICE drop foreign key FK_e7e7c8f3dbf64d51855babe0e86
+2016-11-27 15:58:06 ERROR SchemaExport:426 - Can't DROP 'FK_e7e7c8f3dbf64d51855babe0e86'; check that column/key exists
+2016-11-27 15:58:06 ERROR SchemaExport:425 - HHH000389: Unsuccessful: alter table CAR_SERVICE drop foreign key FK_4dcd466c2ef34078b7b7539dc32
+2016-11-27 15:58:06 ERROR SchemaExport:426 - Can't DROP 'FK_4dcd466c2ef34078b7b7539dc32'; check that column/key exists
+2016-11-27 15:58:06 ERROR SchemaExport:425 - HHH000389: Unsuccessful: alter table cars drop foreign key FK_83e4db76fa83425f968ae7730a7
+2016-11-27 15:58:06 ERROR SchemaExport:426 - Can't DROP 'FK_83e4db76fa83425f968ae7730a7'; check that column/key exists
+2016-11-27 15:58:06 ERROR SchemaExport:425 - HHH000389: Unsuccessful: alter table cars drop foreign key FK_fa7312cb148642bca20cade2f2c
+2016-11-27 15:58:06 ERROR SchemaExport:426 - Can't DROP 'FK_fa7312cb148642bca20cade2f2c'; check that column/key exists
+2016-11-27 15:58:12 INFO  SchemaExport:405 - HHH000230: Schema export complete
+2016-11-27 18:13:07 INFO  Version:37 - HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+2016-11-27 18:13:07 INFO  Version:41 - HHH000412: Hibernate Core {4.2.1.Final}
+2016-11-27 18:13:07 INFO  Environment:239 - HHH000206: hibernate.properties not found
+2016-11-27 18:13:07 INFO  Environment:342 - HHH000021: Bytecode provider name : javassist
+2016-11-27 18:13:08 INFO  DriverManagerConnectionProviderImpl:98 - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2016-11-27 18:13:08 INFO  DriverManagerConnectionProviderImpl:134 - HHH000115: Hibernate connection pool size: 20
+2016-11-27 18:13:08 INFO  DriverManagerConnectionProviderImpl:137 - HHH000006: Autocommit mode: true
+2016-11-27 18:13:08 INFO  DriverManagerConnectionProviderImpl:151 - HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/carsdb44]
+2016-11-27 18:13:08 INFO  DriverManagerConnectionProviderImpl:156 - HHH000046: Connection properties: {user=root, password=****, autocommit=true, release_mode=auto}
+2016-11-27 18:13:08 INFO  Dialect:128 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2016-11-27 18:13:08 INFO  TransactionFactoryInitiator:73 - HHH000268: Transaction strategy: org.hibernate.engine.transaction.internal.jdbc.JdbcTransactionFactory
+2016-11-27 18:13:08 INFO  ASTQueryTranslatorFactory:48 - HHH000397: Using ASTQueryTranslatorFactory
+2016-11-27 18:13:09 INFO  SchemaExport:343 - HHH000227: Running hbm2ddl schema export
+2016-11-27 18:13:09 ERROR SchemaExport:425 - HHH000389: Unsuccessful: alter table CAR_SERVICE drop foreign key FK_3e24b02255854fd9a9ba282fa78
+2016-11-27 18:13:09 ERROR SchemaExport:426 - Can't DROP 'FK_3e24b02255854fd9a9ba282fa78'; check that column/key exists
+2016-11-27 18:13:09 ERROR SchemaExport:425 - HHH000389: Unsuccessful: alter table CAR_SERVICE drop foreign key FK_146447edf11c4918a2ac99fec14
+2016-11-27 18:13:09 ERROR SchemaExport:426 - Can't DROP 'FK_146447edf11c4918a2ac99fec14'; check that column/key exists
+2016-11-27 18:13:09 ERROR SchemaExport:425 - HHH000389: Unsuccessful: alter table cars drop foreign key FK_954a90d3652b498c946090140d9
+2016-11-27 18:13:09 ERROR SchemaExport:426 - Can't DROP 'FK_954a90d3652b498c946090140d9'; check that column/key exists
+2016-11-27 18:13:09 ERROR SchemaExport:425 - HHH000389: Unsuccessful: alter table cars drop foreign key FK_c923e4c9ba83435bb634ce612e1
+2016-11-27 18:13:09 ERROR SchemaExport:426 - Can't DROP 'FK_c923e4c9ba83435bb634ce612e1'; check that column/key exists
+2016-11-27 18:13:19 INFO  SchemaExport:405 - HHH000230: Schema export complete
+2016-11-27 18:13:30 INFO  Version:37 - HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+2016-11-27 18:13:30 INFO  Version:41 - HHH000412: Hibernate Core {4.2.1.Final}
+2016-11-27 18:13:30 INFO  Environment:239 - HHH000206: hibernate.properties not found
+2016-11-27 18:13:30 INFO  Environment:342 - HHH000021: Bytecode provider name : javassist
+2016-11-27 18:13:32 INFO  DriverManagerConnectionProviderImpl:98 - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2016-11-27 18:13:32 INFO  DriverManagerConnectionProviderImpl:134 - HHH000115: Hibernate connection pool size: 20
+2016-11-27 18:13:32 INFO  DriverManagerConnectionProviderImpl:137 - HHH000006: Autocommit mode: true
+2016-11-27 18:13:32 INFO  DriverManagerConnectionProviderImpl:151 - HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/carsdb44]
+2016-11-27 18:13:32 INFO  DriverManagerConnectionProviderImpl:156 - HHH000046: Connection properties: {user=root, password=****, autocommit=true, release_mode=auto}
+2016-11-27 18:13:32 INFO  Dialect:128 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2016-11-27 18:13:32 INFO  TransactionFactoryInitiator:73 - HHH000268: Transaction strategy: org.hibernate.engine.transaction.internal.jdbc.JdbcTransactionFactory
+2016-11-27 18:13:32 INFO  ASTQueryTranslatorFactory:48 - HHH000397: Using ASTQueryTranslatorFactory
+2016-11-27 18:13:33 INFO  SchemaExport:343 - HHH000227: Running hbm2ddl schema export
+2016-11-27 18:13:33 ERROR SchemaExport:425 - HHH000389: Unsuccessful: alter table CAR_SERVICE drop foreign key FK_dfc0327e9eae448aae8393b802d
+2016-11-27 18:13:33 ERROR SchemaExport:426 - Can't DROP 'FK_dfc0327e9eae448aae8393b802d'; check that column/key exists
+2016-11-27 18:13:33 ERROR SchemaExport:425 - HHH000389: Unsuccessful: alter table CAR_SERVICE drop foreign key FK_e75abc5b1f524c5a8d9d44ba49e
+2016-11-27 18:13:33 ERROR SchemaExport:426 - Can't DROP 'FK_e75abc5b1f524c5a8d9d44ba49e'; check that column/key exists
+2016-11-27 18:13:33 ERROR SchemaExport:425 - HHH000389: Unsuccessful: alter table cars drop foreign key FK_a925febdbb7148fea6586222a94
+2016-11-27 18:13:33 ERROR SchemaExport:426 - Can't DROP 'FK_a925febdbb7148fea6586222a94'; check that column/key exists
+2016-11-27 18:13:33 ERROR SchemaExport:425 - HHH000389: Unsuccessful: alter table cars drop foreign key FK_c6a1e8e9807245e6b7a1bf4a37a
+2016-11-27 18:13:33 ERROR SchemaExport:426 - Can't DROP 'FK_c6a1e8e9807245e6b7a1bf4a37a'; check that column/key exists
+2016-11-27 18:13:41 INFO  SchemaExport:405 - HHH000230: Schema export complete
+2016-11-27 18:15:14 INFO  Version:37 - HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+2016-11-27 18:15:14 INFO  Version:41 - HHH000412: Hibernate Core {4.2.1.Final}
+2016-11-27 18:15:14 INFO  Environment:239 - HHH000206: hibernate.properties not found
+2016-11-27 18:15:14 INFO  Environment:342 - HHH000021: Bytecode provider name : javassist
+2016-11-27 18:15:15 INFO  DriverManagerConnectionProviderImpl:98 - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2016-11-27 18:15:15 INFO  DriverManagerConnectionProviderImpl:134 - HHH000115: Hibernate connection pool size: 20
+2016-11-27 18:15:15 INFO  DriverManagerConnectionProviderImpl:137 - HHH000006: Autocommit mode: true
+2016-11-27 18:15:15 INFO  DriverManagerConnectionProviderImpl:151 - HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/carsdb44]
+2016-11-27 18:15:15 INFO  DriverManagerConnectionProviderImpl:156 - HHH000046: Connection properties: {user=root, password=****, autocommit=true, release_mode=auto}
+2016-11-27 18:15:15 INFO  Dialect:128 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2016-11-27 18:15:15 INFO  TransactionFactoryInitiator:73 - HHH000268: Transaction strategy: org.hibernate.engine.transaction.internal.jdbc.JdbcTransactionFactory
+2016-11-27 18:15:15 INFO  ASTQueryTranslatorFactory:48 - HHH000397: Using ASTQueryTranslatorFactory
+2016-11-27 18:15:16 INFO  SchemaExport:343 - HHH000227: Running hbm2ddl schema export
+2016-11-27 18:15:16 ERROR SchemaExport:425 - HHH000389: Unsuccessful: alter table CAR_SERVICE drop foreign key FK_30c967312b1743f9a358ecfdcea
+2016-11-27 18:15:16 ERROR SchemaExport:426 - Can't DROP 'FK_30c967312b1743f9a358ecfdcea'; check that column/key exists
+2016-11-27 18:15:16 ERROR SchemaExport:425 - HHH000389: Unsuccessful: alter table CAR_SERVICE drop foreign key FK_fe524acb79144c8c8fd60397e72
+2016-11-27 18:15:16 ERROR SchemaExport:426 - Can't DROP 'FK_fe524acb79144c8c8fd60397e72'; check that column/key exists
+2016-11-27 18:15:16 ERROR SchemaExport:425 - HHH000389: Unsuccessful: alter table cars drop foreign key FK_771c3b92e53a41d99745c9046d1
+2016-11-27 18:15:16 ERROR SchemaExport:426 - Can't DROP 'FK_771c3b92e53a41d99745c9046d1'; check that column/key exists
+2016-11-27 18:15:16 ERROR SchemaExport:425 - HHH000389: Unsuccessful: alter table cars drop foreign key FK_acfc0802653c4d8d821b9d41834
+2016-11-27 18:15:16 ERROR SchemaExport:426 - Can't DROP 'FK_acfc0802653c4d8d821b9d41834'; check that column/key exists
+2016-11-27 18:15:22 INFO  SchemaExport:405 - HHH000230: Schema export complete
+2016-11-27 18:15:29 INFO  Version:37 - HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+2016-11-27 18:15:29 INFO  Version:41 - HHH000412: Hibernate Core {4.2.1.Final}
+2016-11-27 18:15:29 INFO  Environment:239 - HHH000206: hibernate.properties not found
+2016-11-27 18:15:29 INFO  Environment:342 - HHH000021: Bytecode provider name : javassist
+2016-11-27 18:15:32 INFO  DriverManagerConnectionProviderImpl:98 - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2016-11-27 18:15:32 INFO  DriverManagerConnectionProviderImpl:134 - HHH000115: Hibernate connection pool size: 20
+2016-11-27 18:15:32 INFO  DriverManagerConnectionProviderImpl:137 - HHH000006: Autocommit mode: true
+2016-11-27 18:15:32 INFO  DriverManagerConnectionProviderImpl:151 - HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/carsdb44]
+2016-11-27 18:15:32 INFO  DriverManagerConnectionProviderImpl:156 - HHH000046: Connection properties: {user=root, password=****, autocommit=true, release_mode=auto}
+2016-11-27 18:15:32 INFO  Dialect:128 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2016-11-27 18:15:32 INFO  TransactionFactoryInitiator:73 - HHH000268: Transaction strategy: org.hibernate.engine.transaction.internal.jdbc.JdbcTransactionFactory
+2016-11-27 18:15:32 INFO  ASTQueryTranslatorFactory:48 - HHH000397: Using ASTQueryTranslatorFactory
+2016-11-27 18:15:33 INFO  SchemaExport:343 - HHH000227: Running hbm2ddl schema export
+2016-11-27 18:15:33 ERROR SchemaExport:425 - HHH000389: Unsuccessful: alter table CAR_SERVICE drop foreign key FK_f57f9ccb7d654f97a1b31d407e4
+2016-11-27 18:15:33 ERROR SchemaExport:426 - Can't DROP 'FK_f57f9ccb7d654f97a1b31d407e4'; check that column/key exists
+2016-11-27 18:15:33 ERROR SchemaExport:425 - HHH000389: Unsuccessful: alter table CAR_SERVICE drop foreign key FK_93e0cc2c403842f9af5455765bf
+2016-11-27 18:15:33 ERROR SchemaExport:426 - Can't DROP 'FK_93e0cc2c403842f9af5455765bf'; check that column/key exists
+2016-11-27 18:15:33 ERROR SchemaExport:425 - HHH000389: Unsuccessful: alter table cars drop foreign key FK_e1e9ebed83da421087b69f8ee8a
+2016-11-27 18:15:33 ERROR SchemaExport:426 - Can't DROP 'FK_e1e9ebed83da421087b69f8ee8a'; check that column/key exists
+2016-11-27 18:15:33 ERROR SchemaExport:425 - HHH000389: Unsuccessful: alter table cars drop foreign key FK_b0cfc2b5fac04c9bb1fbd21b7d0
+2016-11-27 18:15:33 ERROR SchemaExport:426 - Can't DROP 'FK_b0cfc2b5fac04c9bb1fbd21b7d0'; check that column/key exists
+2016-11-27 18:15:41 INFO  SchemaExport:405 - HHH000230: Schema export complete

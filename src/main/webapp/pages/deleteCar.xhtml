@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:mytag="http://lab4.mynamespace.com"
+      xmlns:f="http://xmlns.jcp.org/jsf/core">
+
+<head></head>
+    <body style="background: url(../tree.jpg) no-repeat fixed center; background-size: cover;">
+        <h3 style="color: white">Deleting a car</h3>
+        <h:form>
+            <p><h:outputText style="color: white" value="Choose a car:" /></p>
+            <p><h:selectOneListbox id="carItem" converter="#{carController}" value="#{carController.car}" >
+                <f:selectItems value="#{carController.cars}" var="carItem" itemLabel="#{carItem.model}" itemValue="#{carItem}"/>
+            </h:selectOneListbox></p>
+            <mytag:buttons
+                    buttonActionLabel="Delete"
+                    buttonResetLabel="Cancel"
+                    itemBean="#{carController}"
+                    itemEditAction="delete" />
+        </h:form>
+
+        <p><a style="color: white" href = "../index.xhtml">Home page</a></p>
+    </body>
+</html>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+      xmlns:f="http://xmlns.jcp.org/jsf/core">
+<head></head>
+<body>
+<h3>Tables</h3>
+<p>Cars</p>
+<h:dataTable value="#{carController.cars}" var="car">
+    <h:column><f:facet name="header">ID</f:facet>#{car.id}</h:column>
+    <h:column><f:facet name="header">Name</f:facet>#{car.model}</h:column>
+    <h:column><f:facet name="header">Country</f:facet>#{car.country}</h:column>
+    <h:column><f:facet name="header">Registration number</f:facet>#{car.registration.serial_number}</h:column>
+    <h:column><f:facet name="header">Owner</f:facet>#{car.owner.firstName} #{car.owner.lastName}</h:column>
+</h:dataTable>
+
+<p>Owners</p>
+<h:dataTable value="#{ownerController.ownerList}" var="owner">
+    <h:column><f:facet name="header">ID</f:facet>#{owner.id}</h:column>
+    <h:column><f:facet name="header">First Name</f:facet>#{owner.firstName}</h:column>
+    <h:column><f:facet name="header">Last Name</f:facet>#{owner.lastName}</h:column>
+</h:dataTable>
+
+<p>Registrations</p>
+<h:dataTable value="#{registrationController.registrations}" var="registration">
+    <h:column><f:facet name="header">ID</f:facet>#{registration.id}</h:column>
+    <h:column><f:facet name="header">Serial Number</f:facet>#{registration.serial_number}</h:column>
+</h:dataTable>
+
+<p>Services</p>
+<h:dataTable value="#{serviceController.serviceList}" var="service">
+    <h:column><f:facet name="header">ID</f:facet>#{service.id}</h:column>
+    <h:column><f:facet name="header">Name</f:facet>#{service.name}</h:column>
+</h:dataTable>
+
+<p><a href = "../index.xhtml">Home page</a></p>
+</body>
+</html>

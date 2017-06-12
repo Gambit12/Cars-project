@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component name="dataSourceStorage">
+  <data-source name="MySQL - carsdb44@localhost" uuid="07f1f4a5-e95d-4114-998d-915472e53e76">
+    <database-info product="MySQL" version="5.7.15-log" jdbc-version="4.0" driver-name="MySQL Connector Java" driver-version="mysql-connector-java-5.1.35 ( Revision: 5fb9c5849535c13917c2cf9baaece6ef9693ef27 )">
+      <extra-name-characters>#@</extra-name-characters>
+      <identifier-quote-string>`</identifier-quote-string>
+    </database-info>
+    <case-sensitivity plain-identifiers="lower" quoted-identifiers="lower"/>
+    <schema name="" catalog="carsdb44"/>
+    <table name="car_service" schema="" catalog="carsdb44" type="TABLE">
+      <column name="cars_car_id" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4"/>
+      <column name="services_service_id" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4"/>
+      <foreign-key name="FK_3d9c4bc4173e423699b77294a60" columns="cars_car_id" ref-table="cars" ref-schema="" ref-catalog="carsdb44" ref-columns="car_id" update-rule="3" delete-rule="3" deferrability="2"/>
+      <foreign-key name="FK_ba11e0030d41428ba67ed95754d" columns="services_service_id" ref-table="services" ref-schema="" ref-catalog="carsdb44" ref-columns="service_id" update-rule="3" delete-rule="3" deferrability="2"/>
+      <index name="FK_3d9c4bc4173e423699b77294a60" unique="false" columns="cars_car_id"/>
+      <index name="FK_ba11e0030d41428ba67ed95754d" unique="false" columns="services_service_id"/>
+    </table>
+    <table name="cars" schema="" catalog="carsdb44" type="TABLE">
+      <column name="car_id" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4" autoIncrement="true"/>
+      <column name="city_mode" sqlType="DOUBLE" precision="22" scale="0" nullable="true" jdbcType="8"/>
+      <column name="country" sqlType="VARCHAR" precision="255" scale="0" nullable="true" jdbcType="12"/>
+      <column name="mixed_mode" sqlType="DOUBLE" precision="22" scale="0" nullable="true" jdbcType="8"/>
+      <column name="model" sqlType="VARCHAR" precision="255" scale="0" nullable="false" jdbcType="12"/>
+      <column name="motorway_mode" sqlType="DOUBLE" precision="22" scale="0" nullable="true" jdbcType="8"/>
+      <column name="owner_id" sqlType="INT" precision="10" scale="0" nullable="true" jdbcType="4"/>
+      <column name="registration_id" sqlType="INT" precision="10" scale="0" nullable="true" jdbcType="4"/>
+      <primary-key name="PRIMARY" columns="car_id"/>
+      <foreign-key name="FK_1d3baac01f294444bf89745a154" columns="owner_id" ref-table="owners" ref-schema="" ref-catalog="carsdb44" ref-columns="id" update-rule="3" delete-rule="3" deferrability="2"/>
+      <foreign-key name="FK_89a2375dc5d240f691b9bfa0456" columns="registration_id" ref-table="registrations" ref-schema="" ref-catalog="carsdb44" ref-columns="registration_id" update-rule="3" delete-rule="3" deferrability="2"/>
+      <exported-key name="FK_3d9c4bc4173e423699b77294a60" table="car_service" schema="" catalog="carsdb44" columns="cars_car_id"/>
+      <index name="FK_1d3baac01f294444bf89745a154" unique="false" columns="owner_id"/>
+      <index name="FK_89a2375dc5d240f691b9bfa0456" unique="false" columns="registration_id"/>
+    </table>
+    <table name="owners" schema="" catalog="carsdb44" type="TABLE">
+      <column name="id" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4" autoIncrement="true"/>
+      <column name="first_name" sqlType="VARCHAR" precision="255" scale="0" nullable="false" jdbcType="12"/>
+      <column name="last_name" sqlType="VARCHAR" precision="255" scale="0" nullable="false" jdbcType="12"/>
+      <primary-key name="PRIMARY" columns="id"/>
+      <exported-key name="FK_1d3baac01f294444bf89745a154" table="cars" schema="" catalog="carsdb44" columns="owner_id"/>
+    </table>
+    <table name="registrations" schema="" catalog="carsdb44" type="TABLE">
+      <column name="registration_id" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4" autoIncrement="true"/>
+      <column name="serial_number" sqlType="VARCHAR" precision="255" scale="0" nullable="true" jdbcType="12"/>
+      <primary-key name="PRIMARY" columns="registration_id"/>
+      <exported-key name="FK_89a2375dc5d240f691b9bfa0456" table="cars" schema="" catalog="carsdb44" columns="registration_id"/>
+      <index name="UK_dae42d8fb9074e50b6bf3b05359" unique="true" columns="serial_number"/>
+    </table>
+    <table name="services" schema="" catalog="carsdb44" type="TABLE">
+      <column name="service_id" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4" autoIncrement="true"/>
+      <column name="service_name" sqlType="VARCHAR" precision="255" scale="0" nullable="true" jdbcType="12"/>
+      <primary-key name="PRIMARY" columns="service_id"/>
+      <exported-key name="FK_ba11e0030d41428ba67ed95754d" table="car_service" schema="" catalog="carsdb44" columns="services_service_id"/>
+    </table>
+  </data-source>
+</component>
